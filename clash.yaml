@@ -5,42 +5,101 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra]
-  type: vless
-  server: 88.216.190.205
+- name: 🇺🇸 United States [GH:barry-far/V2r]
+  type: trojan
+  server: 151.101.56.7
   port: 443
-  uuid: c6037cf7-d931-4027-af06-6bfb0f10684c
+  password: MiTiVPN
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: apiv91.jarvesitw.ru
-  reality-opts:
-    public-key: QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0
-    short-id: b0ffeec3
-  client-fingerprint: chrome
-- name: 🇸🇬 Singapore/Singapore [GH:Mahdi0024/Pro]
+  sni: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+- name: 🇺🇸 United States [GH:ermaozi/get_s]
   type: vless
-  server: 13.212.211.73
-  port: 20221
-  uuid: 9f752e03-411f-4df4-841f-a23c4c43d183
+  server: 172.66.0.236
+  port: 2083
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
-  flow: xtls-rprx-vision
   tls: true
-  servername: www.intel.com
-  reality-opts:
-    public-key: Fd3DtGiQyvw9IBKoMqKtgaKVkdvjnaErL_1ib-zXqxY
-    short-id: 85ae3d83d037b7
-  client-fingerprint: chrome
-- name: 🇨🇦 Canada/Montréal [GH:ermaozi/get_s]
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇺🇸 United States/San Francisco [GH:Surfboardv2ra]
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇬🇧 United Kingdom/Portsmouth [GH:Mahdi0024/Pro]
   type: ss
-  server: 35.182.118.89
+  server: 149.102.149.207
+  port: 443
+  password: LXchLsIwtCeUAUgu
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇬🇧 United Kingdom/Manchester [GH:Mahdi0024/Pro]
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  udp: true
+- name: 🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro]
+  type: ss
+  server: 13.40.17.62
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
   udp: true
-- name: 🇲🇾 Malaysia/Cyberjaya [GH:ermaozi/get_s]
+- name: '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #2'
   type: ss
-  server: 118.107.222.231
+  server: 18.130.157.255
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #3'
+  type: ss
+  server: 35.178.132.176
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #4'
+  type: ss
+  server: 18.175.119.181
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  udp: true
+- name: 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+  type: ss
+  server: 82.38.31.57
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom/Portsmouth [GH:Mahdi0024/Pro] #2'
+  type: ss
+  server: 149.102.149.207
+  port: 80
+  password: LXchLsIwtCeUAUgu
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇬🇧 United Kingdom/London [GH:Mahdi0024/Pro]
+  type: ss
+  server: 31.57.35.41
   port: 65443
   password: 7eadc6dbe2ae
   cipher: aes-256-cfb
@@ -51,17 +110,33 @@ proxy-groups:
   proxies:
   - Auto
   - DIRECT
-  - 🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra]
-  - 🇸🇬 Singapore/Singapore [GH:Mahdi0024/Pro]
-  - 🇨🇦 Canada/Montréal [GH:ermaozi/get_s]
-  - 🇲🇾 Malaysia/Cyberjaya [GH:ermaozi/get_s]
+  - 🇺🇸 United States [GH:barry-far/V2r]
+  - 🇺🇸 United States [GH:ermaozi/get_s]
+  - 🇺🇸 United States/San Francisco [GH:Surfboardv2ra]
+  - 🇬🇧 United Kingdom/Portsmouth [GH:Mahdi0024/Pro]
+  - 🇬🇧 United Kingdom/Manchester [GH:Mahdi0024/Pro]
+  - 🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro]
+  - '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #2'
+  - '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #3'
+  - '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #4'
+  - 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+  - '🇬🇧 United Kingdom/Portsmouth [GH:Mahdi0024/Pro] #2'
+  - 🇬🇧 United Kingdom/London [GH:Mahdi0024/Pro]
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra]
-  - 🇸🇬 Singapore/Singapore [GH:Mahdi0024/Pro]
-  - 🇨🇦 Canada/Montréal [GH:ermaozi/get_s]
-  - 🇲🇾 Malaysia/Cyberjaya [GH:ermaozi/get_s]
+  - 🇺🇸 United States [GH:barry-far/V2r]
+  - 🇺🇸 United States [GH:ermaozi/get_s]
+  - 🇺🇸 United States/San Francisco [GH:Surfboardv2ra]
+  - 🇬🇧 United Kingdom/Portsmouth [GH:Mahdi0024/Pro]
+  - 🇬🇧 United Kingdom/Manchester [GH:Mahdi0024/Pro]
+  - 🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro]
+  - '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #2'
+  - '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #3'
+  - '🇬🇧 United Kingdom/City of London [GH:Mahdi0024/Pro] #4'
+  - 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+  - '🇬🇧 United Kingdom/Portsmouth [GH:Mahdi0024/Pro] #2'
+  - 🇬🇧 United Kingdom/London [GH:Mahdi0024/Pro]
   url: https://www.google.com/generate_204
   interval: 300
   tolerance: 50

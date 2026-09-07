@@ -1,62 +1,134 @@
 {
   "outbounds": [
     {
-      "tag": "Germany/Frankfurt am Main [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "88.216.190.205",
+      "tag": "United States [GH:barry-far/V2r]",
+      "type": "trojan",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "apiv91.jarvesitw.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "QMkh_UZF6wTVrYukjoZTbrRUziZxT-s0Oj8zVP_RuH0",
-          "short_id": "b0ffeec3"
-        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "server_name": "ssl.fastly.com",
         "utls": {
-          "enabled": true
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
+        "headers": {
+          "Host": "mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net"
         }
       }
     },
     {
-      "tag": "Singapore/Singapore [GH:Mahdi0024/Pro]",
+      "tag": "United States [GH:ermaozi/get_s]",
       "type": "vless",
-      "server": "13.212.211.73",
-      "server_port": 20221,
-      "uuid": "9f752e03-411f-4df4-841f-a23c4c43d183",
+      "server": "172.66.0.236",
+      "server_port": 2083,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.intel.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "Fd3DtGiQyvw9IBKoMqKtgaKVkdvjnaErL_1ib-zXqxY",
-          "short_id": "85ae3d83d037b7"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        "server_name": "cfvvv-ev1.pages.dev"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cfvvv-ev1.pages.dev"
         }
       }
     },
     {
-      "tag": "Canada/Montréal [GH:ermaozi/get_s]",
+      "tag": "United States/San Francisco [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "172.64.150.28",
+      "server_port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "United Kingdom/Portsmouth [GH:Mahdi0024/Pro]",
       "type": "shadowsocks",
-      "server": "35.182.118.89",
+      "server": "149.102.149.207",
+      "server_port": 443,
+      "method": "aes-256-gcm",
+      "password": "LXchLsIwtCeUAUgu"
+    },
+    {
+      "tag": "United Kingdom/Manchester [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "141.98.101.181",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "United Kingdom/City of London [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "13.40.17.62",
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05"
     },
     {
-      "tag": "Malaysia/Cyberjaya [GH:ermaozi/get_s]",
+      "tag": "United Kingdom/City of London [GH:Mahdi0024/Pro] #2",
       "type": "shadowsocks",
-      "server": "118.107.222.231",
+      "server": "18.130.157.255",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "tag": "United Kingdom/City of London [GH:Mahdi0024/Pro] #3",
+      "type": "shadowsocks",
+      "server": "35.178.132.176",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "tag": "United Kingdom/City of London [GH:Mahdi0024/Pro] #4",
+      "type": "shadowsocks",
+      "server": "18.175.119.181",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "tag": "United Kingdom [GH:Surfboardv2ra]",
+      "type": "shadowsocks",
+      "server": "82.38.31.57",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "tag": "United Kingdom/Portsmouth [GH:Mahdi0024/Pro] #2",
+      "type": "shadowsocks",
+      "server": "149.102.149.207",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "LXchLsIwtCeUAUgu"
+    },
+    {
+      "tag": "United Kingdom/London [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "31.57.35.41",
       "server_port": 65443,
       "method": "aes-256-cfb",
       "password": "7eadc6dbe2ae"
@@ -65,10 +137,18 @@
       "type": "urltest",
       "tag": "Auto",
       "outbounds": [
-        "Germany/Frankfurt am Main [GH:Surfboardv2ra]",
-        "Singapore/Singapore [GH:Mahdi0024/Pro]",
-        "Canada/Montréal [GH:ermaozi/get_s]",
-        "Malaysia/Cyberjaya [GH:ermaozi/get_s]"
+        "United States [GH:barry-far/V2r]",
+        "United States [GH:ermaozi/get_s]",
+        "United States/San Francisco [GH:Surfboardv2ra]",
+        "United Kingdom/Portsmouth [GH:Mahdi0024/Pro]",
+        "United Kingdom/Manchester [GH:Mahdi0024/Pro]",
+        "United Kingdom/City of London [GH:Mahdi0024/Pro]",
+        "United Kingdom/City of London [GH:Mahdi0024/Pro] #2",
+        "United Kingdom/City of London [GH:Mahdi0024/Pro] #3",
+        "United Kingdom/City of London [GH:Mahdi0024/Pro] #4",
+        "United Kingdom [GH:Surfboardv2ra]",
+        "United Kingdom/Portsmouth [GH:Mahdi0024/Pro] #2",
+        "United Kingdom/London [GH:Mahdi0024/Pro]"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "5m",
