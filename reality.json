@@ -1,7 +1,7 @@
 {
   "outbounds": [
     {
-      "tag": "Japan/Tokyo [GH:Surfboardv2ra]",
+      "tag": "Japan/Tokyo [GH:barry-far/V2r]",
       "type": "vless",
       "server": "31.76.91.72",
       "server_port": 2087,
@@ -27,51 +27,6 @@
       }
     },
     {
-      "tag": "Germany [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "169.40.42.184",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Guatemala/Guatemala City [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "185.47.254.251",
-      "server_port": 443,
-      "uuid": "878fb7f7-fc65-465e-a352-17c7216c6f3d",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gateway.icloud.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q",
-          "short_id": "6c059ecfddf9b179"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "United States/North Bergen [GH:Surfboardv2ra]",
       "type": "vless",
       "server": "137.184.218.169",
@@ -89,29 +44,6 @@
         },
         "utls": {
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "United States [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "47.89.186.170",
-      "server_port": 55861,
-      "uuid": "d51ed55c-d6dd-400b-aaf6-017c33969bfe",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.intel.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs",
-          "short_id": "7551ed1b"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }
