@@ -27,32 +27,34 @@
       }
     },
     {
-      "tag": "United States/North Bergen [GH:Surfboardv2ra]",
+      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "137.184.218.169",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "server": "45.149.172.80",
+      "server_port": 443,
+      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
+          "public_key": "FKTaFzF4zfAqXBdDQHwSVl_XyNcC3T17s_FqhHyZchg",
+          "short_id": "fb9456392070128e"
         },
         "utls": {
-          "enabled": true
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
     {
-      "tag": "United States/Chicago [GH:barry-far/V2r]",
+      "tag": "United States/Chicago [GH:Surfboardv2ra]",
       "type": "trojan",
       "server": "199.232.78.101",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "password": "MITIVPN",
       "tls": {
         "enabled": true,
         "insecure": false,
@@ -67,53 +69,23 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "@mehrosaboran",
         "headers": {
-          "Host": "mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net"
+          "Host": "mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net"
         }
       }
     },
     {
-      "tag": "United States [GH:barry-far/V2r]",
-      "type": "trojan",
-      "server": "167.82.76.7",
+      "tag": "Canada [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "lizca2.footballfantasyforum.com",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "server_name": "ssl.fastly.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mitivpn---ss--s---mitivpn-33.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "tag": "Canada/Montreal [GH:Surfboardv2ra]",
-      "type": "hysteria2",
-      "server": "15.223.122.197",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me",
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+        "server_name": "lizca2.footballfantasyforum.com"
       }
     },
     {
@@ -134,55 +106,78 @@
     {
       "tag": "United States/San Francisco [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "80cead8e-0d28-4b0a-bacd-8005471a5c39",
+      "server": "104.21.15.212",
+      "server_port": 8880,
+      "uuid": "fc46b03d-e185-48e7-8c18-dea03b4a0c25",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/pyip",
+        "path": "/",
         "headers": {
-          "Host": "flat-fire-40ed.96-042.workers.dev"
+          "Host": "flat-union-b292.17-4e0.workers.dev"
         }
       }
     },
     {
-      "tag": "United States/Santa Clara [GH:ermaozi/get_s]",
-      "type": "hysteria2",
-      "server": "107.174.255.14",
-      "server_port": 4356,
-      "password": "c2356e22-b026-4f12-8508-cf61f0b0c867",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
+      "tag": "United States [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "162.159.156.214",
+      "server_port": 8880,
+      "uuid": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net",
+        "headers": {
+          "Host": "lingering-dawn-5d4a.163-3f1.workers.dev"
+        }
       }
     },
     {
-      "tag": "The Netherlands/Amsterdam [GH:Surfboardv2ra]",
+      "tag": "United States/San Francisco [GH:Surfboardv2ra] #2",
       "type": "vless",
-      "server": "78.141.221.126",
-      "server_port": 25585,
-      "uuid": "e4668a2b-66d6-4500-bcef-5ed52414e40a",
-      "packet_encoding": "xudp"
+      "server": "162.159.48.32",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "United States/Columbus [GH:ermaozi/get_s]",
+      "type": "shadowsocks",
+      "server": "18.191.124.183",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "tag": "France/Paris [GH:ermaozi/get_s]",
+      "type": "shadowsocks",
+      "server": "15.237.218.241",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
       "type": "urltest",
       "tag": "Auto",
       "outbounds": [
         "Japan/Tokyo [GH:barry-far/V2r]",
-        "United States/North Bergen [GH:Surfboardv2ra]",
-        "United States/Chicago [GH:barry-far/V2r]",
-        "United States [GH:barry-far/V2r]",
-        "Canada/Montreal [GH:Surfboardv2ra]",
+        "United States/Los Angeles [GH:Surfboardv2ra]",
+        "United States/Chicago [GH:Surfboardv2ra]",
+        "Canada [GH:Surfboardv2ra]",
         "United States/San Francisco [GH:barry-far/V2r]",
         "United States/San Francisco [GH:Surfboardv2ra]",
-        "United States/Santa Clara [GH:ermaozi/get_s]",
-        "The Netherlands/Amsterdam [GH:Surfboardv2ra]"
+        "United States [GH:Surfboardv2ra]",
+        "United States/San Francisco [GH:Surfboardv2ra] #2",
+        "United States/Columbus [GH:ermaozi/get_s]",
+        "France/Paris [GH:ermaozi/get_s]"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "5m",

@@ -27,23 +27,25 @@
       }
     },
     {
-      "tag": "United States/North Bergen [GH:Surfboardv2ra]",
+      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "137.184.218.169",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "server": "45.149.172.80",
+      "server_port": 443,
+      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.amazon.com",
         "reality": {
           "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
+          "public_key": "FKTaFzF4zfAqXBdDQHwSVl_XyNcC3T17s_FqhHyZchg",
+          "short_id": "fb9456392070128e"
         },
         "utls": {
-          "enabled": true
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

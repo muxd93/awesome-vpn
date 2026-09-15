@@ -1,27 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇨🇦 Canada/Montreal [GH:Surfboardv2ra]
-  type: hysteria2
-  server: 15.223.122.197
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  udp: true
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 107.174.255.14
-  port: 4356
-  password: c2356e22-b026-4f12-8508-cf61f0b0c867
-  udp: true
-  skip-cert-verify: true
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇨🇦 Canada/Montreal [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
