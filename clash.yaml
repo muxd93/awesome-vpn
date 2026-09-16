@@ -20,76 +20,84 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
+- name: 🇩🇪 Germany [GH:Surfboardv2ra]
   type: vless
-  server: 45.149.172.80
+  server: 169.40.42.223
   port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: www.amazon.com
+  servername: yahoo.com
   reality-opts:
-    public-key: FKTaFzF4zfAqXBdDQHwSVl_XyNcC3T17s_FqhHyZchg
-    short-id: fb9456392070128e
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
   client-fingerprint: chrome
-- name: 🇺🇸 United States/Chicago [GH:Surfboardv2ra]
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: MITIVPN
-  udp: true
-  sni: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: '@mehrosaboran'
-    headers:
-      Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
-- name: 🇨🇦 Canada [GH:Surfboardv2ra]
+- name: 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
   type: vless
-  server: lizca2.footballfantasyforum.com
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  server: 107.173.237.146
+  port: 8443
+  uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
   udp: true
   tls: true
-  servername: lizca2.footballfantasyforum.com
-  skip-cert-verify: true
-- name: 🇺🇸 United States/San Francisco [GH:barry-far/V2r]
+  servername: updates.cdn-apple.com
+  reality-opts:
+    public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+    short-id: df8611c07d
+  client-fingerprint: chrome
+- name: 🇺🇸 United States/North Bergen [GH:Surfboardv2ra]
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: ww9.levikogjgfdd.ir
+  port: 36925
+  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
   udp: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+  client-fingerprint: chrome
 - name: 🇺🇸 United States/San Francisco [GH:Surfboardv2ra]
   type: vless
-  server: 104.21.15.212
-  port: 8880
-  uuid: fc46b03d-e185-48e7-8c18-dea03b4a0c25
+  server: 172.67.148.180
+  port: 443
+  uuid: 02e6ad71-7f85-4c3a-aac7-6171762bce87
   udp: true
+  tls: true
+  servername: suMMer-fieLD-3c5b.fSdfSDDf.WoRKErs.dEv
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoia2N4eldGd0p6NVY1V3hrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19
+    headers:
+      Host: summer-field-3c5b.fsdfsddf.workers.dev
+- name: '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #2'
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  servername: cfvvv-ev1.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: flat-union-b292.17-4e0.workers.dev
-- name: 🇺🇸 United States [GH:Surfboardv2ra]
+      Host: cfvvv-ev1.pages.dev
+- name: '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #3'
   type: vless
-  server: 162.159.156.214
+  server: skk.moe
   port: 8880
-  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
   udp: true
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: lingering-dawn-5d4a.163-3f1.workers.dev
-- name: '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #2'
+      Host: lucky-cell-d20c.78-107.workers.dev
+- name: '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #4'
   type: vless
-  server: 162.159.48.32
+  server: 172.64.158.146
   port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -98,19 +106,157 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 United States/Columbus [GH:ermaozi/get_s]
+- name: 🇺🇸 United States/Columbus [GH:Mahdi0024/Pro]
   type: ss
   server: 18.191.124.183
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
   udp: true
-- name: 🇫🇷 France/Paris [GH:ermaozi/get_s]
+- name: 🇬🇧 United Kingdom [GH:Mahdi0024/Pro]
   type: ss
-  server: 15.237.218.241
+  server: 82.38.31.149
   port: 443
-  password: amazonskr05
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 🇩🇪 Germany/Karlsruhe [GH:Mahdi0024/Pro]
+  type: ss
+  server: 2.58.81.221
+  port: 443
+  password: kKEd0rBrd56Furjz
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #2'
+  type: ss
+  server: 82.38.31.175
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 🇳🇱 The Netherlands [GH:Mahdi0024/Pro]
+  type: ss
+  server: 193.29.139.235
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #3'
+  type: ss
+  server: 82.38.31.164
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 🇯🇵 Japan/Osaka [GH:Surfboardv2ra]
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: None
+- name: 🇫🇷 France/Paris [GH:ermaozi/get_s]
+  type: vless
+  server: 13.36.35.121
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #4'
+  type: ss
+  server: 82.38.31.26
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #5'
+  type: ss
+  server: 82.38.31.28
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇳🇱 The Netherlands [GH:Mahdi0024/Pro] #2'
+  type: ss
+  server: 193.29.139.132
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro]
+  type: ss
+  server: 217.30.10.44
+  port: 9099
+  password: 7heRqkPG3hg4UnRm
   cipher: aes-256-cfb
+  udp: true
+- name: '🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro] #2'
+  type: ss
+  server: 217.30.10.44
+  port: 9006
+  password: FAdUvMJUq5vDgKEq
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇩🇪 Germany/Karlsruhe [GH:Mahdi0024/Pro] #2'
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  password: kKEd0rBrd56Furjz
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #6'
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #7'
+  type: ss
+  server: 82.38.31.175
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #8'
+  type: ss
+  server: 82.38.31.36
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro] #3'
+  type: ss
+  server: 217.30.10.44
+  port: 9041
+  password: U6qnYRhfyDmn8sgn
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #9'
+  type: ss
+  server: 82.38.31.156
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇳🇱 The Netherlands [GH:Mahdi0024/Pro] #3'
+  type: ss
+  server: 193.29.139.202
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 🇹🇼 Taiwan/New Taipei City [GH:Mahdi0024/Pro]
+  type: ss
+  server: R3MRCG00129437X.cybervena.com
+  port: 50099
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  cipher: chacha20-ietf-poly1305
   udp: true
 proxy-groups:
 - name: PROXY
@@ -119,28 +265,66 @@ proxy-groups:
   - Auto
   - DIRECT
   - 🇯🇵 Japan/Tokyo [GH:barry-far/V2r]
+  - 🇩🇪 Germany [GH:Surfboardv2ra]
   - 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Chicago [GH:Surfboardv2ra]
-  - 🇨🇦 Canada [GH:Surfboardv2ra]
-  - 🇺🇸 United States/San Francisco [GH:barry-far/V2r]
+  - 🇺🇸 United States/North Bergen [GH:Surfboardv2ra]
   - 🇺🇸 United States/San Francisco [GH:Surfboardv2ra]
-  - 🇺🇸 United States [GH:Surfboardv2ra]
   - '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #2'
-  - 🇺🇸 United States/Columbus [GH:ermaozi/get_s]
+  - '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #3'
+  - '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #4'
+  - 🇺🇸 United States/Columbus [GH:Mahdi0024/Pro]
+  - 🇬🇧 United Kingdom [GH:Mahdi0024/Pro]
+  - 🇩🇪 Germany/Karlsruhe [GH:Mahdi0024/Pro]
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #2'
+  - 🇳🇱 The Netherlands [GH:Mahdi0024/Pro]
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #3'
+  - 🇯🇵 Japan/Osaka [GH:Surfboardv2ra]
   - 🇫🇷 France/Paris [GH:ermaozi/get_s]
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #4'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #5'
+  - '🇳🇱 The Netherlands [GH:Mahdi0024/Pro] #2'
+  - 🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro]
+  - '🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro] #2'
+  - '🇩🇪 Germany/Karlsruhe [GH:Mahdi0024/Pro] #2'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #6'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #7'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #8'
+  - '🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro] #3'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #9'
+  - '🇳🇱 The Netherlands [GH:Mahdi0024/Pro] #3'
+  - 🇹🇼 Taiwan/New Taipei City [GH:Mahdi0024/Pro]
 - name: Auto
   type: url-test
   proxies:
   - 🇯🇵 Japan/Tokyo [GH:barry-far/V2r]
+  - 🇩🇪 Germany [GH:Surfboardv2ra]
   - 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Chicago [GH:Surfboardv2ra]
-  - 🇨🇦 Canada [GH:Surfboardv2ra]
-  - 🇺🇸 United States/San Francisco [GH:barry-far/V2r]
+  - 🇺🇸 United States/North Bergen [GH:Surfboardv2ra]
   - 🇺🇸 United States/San Francisco [GH:Surfboardv2ra]
-  - 🇺🇸 United States [GH:Surfboardv2ra]
   - '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #2'
-  - 🇺🇸 United States/Columbus [GH:ermaozi/get_s]
+  - '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #3'
+  - '🇺🇸 United States/San Francisco [GH:Surfboardv2ra] #4'
+  - 🇺🇸 United States/Columbus [GH:Mahdi0024/Pro]
+  - 🇬🇧 United Kingdom [GH:Mahdi0024/Pro]
+  - 🇩🇪 Germany/Karlsruhe [GH:Mahdi0024/Pro]
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #2'
+  - 🇳🇱 The Netherlands [GH:Mahdi0024/Pro]
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #3'
+  - 🇯🇵 Japan/Osaka [GH:Surfboardv2ra]
   - 🇫🇷 France/Paris [GH:ermaozi/get_s]
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #4'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #5'
+  - '🇳🇱 The Netherlands [GH:Mahdi0024/Pro] #2'
+  - 🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro]
+  - '🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro] #2'
+  - '🇩🇪 Germany/Karlsruhe [GH:Mahdi0024/Pro] #2'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #6'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #7'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #8'
+  - '🇵🇱 Poland/Warsaw [GH:Mahdi0024/Pro] #3'
+  - '🇬🇧 United Kingdom [GH:Mahdi0024/Pro] #9'
+  - '🇳🇱 The Netherlands [GH:Mahdi0024/Pro] #3'
+  - 🇹🇼 Taiwan/New Taipei City [GH:Mahdi0024/Pro]
   url: https://www.google.com/generate_204
   interval: 300
   tolerance: 50

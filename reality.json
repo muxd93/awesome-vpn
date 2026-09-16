@@ -27,25 +27,66 @@
       }
     },
     {
-      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
+      "tag": "Germany [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "45.149.172.80",
+      "server": "169.40.42.223",
       "server_port": 443,
-      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.amazon.com",
+        "server_name": "yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "FKTaFzF4zfAqXBdDQHwSVl_XyNcC3T17s_FqhHyZchg",
-          "short_id": "fb9456392070128e"
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
         },
         "utls": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "107.173.237.146",
+      "server_port": 8443,
+      "uuid": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "updates.cdn-apple.com",
+        "reality": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "public_key": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
+          "short_id": "df8611c07d"
+        },
+        "utls": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "United States/North Bergen [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "ww9.levikogjgfdd.ir",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.cloudflare.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
+        },
+        "utls": {
+          "enabled": true
         }
       }
     }
