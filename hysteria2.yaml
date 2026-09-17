@@ -1,11 +1,27 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
+  type: hysteria2
+  server: 142.249.37.90
+  port: 44356
+  password: dongtaiwang.com
+  udp: true
+  sni: hy2.561891.xyz
+- name: 🇯🇵 Japan/Inzai [GH:ermaozi/get_s]
+  type: hysteria2
+  server: 138.3.208.26
+  port: 50160
+  password: 184cdec28da5a09450803c8debcd2cc9
+  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
+  - 🇯🇵 Japan/Inzai [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
