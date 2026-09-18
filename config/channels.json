@@ -1,9 +1,10 @@
 {
   "channels": {
     "AG77GO": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "discovered_from": "ripaojiedian",
       "first_seen_at": "2026-09-17T04:38:08.993325+00:00",
+      "last_probed_at": "2026-09-18T04:23:20.269478+00:00",
       "last_seen_at": "2026-09-17T04:38:08.993325+00:00",
       "status": "candidate",
       "total_nodes_yielded": 0
@@ -27,10 +28,10 @@
       "total_nodes_yielded": 0
     },
     "free_v2ray": {
-      "consecutive_failures": 18,
+      "consecutive_failures": 19,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-17T04:38:08.854536+00:00",
+      "last_probed_at": "2026-09-18T04:23:20.258471+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
@@ -63,28 +64,28 @@
       "total_nodes_yielded": 0
     },
     "ripaojiedian": {
-      "consecutive_failures": 18,
+      "consecutive_failures": 19,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-17T04:38:08.993297+00:00",
+      "last_probed_at": "2026-09-18T04:23:20.405894+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
     },
     "v2list": {
-      "consecutive_failures": 18,
+      "consecutive_failures": 19,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-17T04:38:08.887674+00:00",
+      "last_probed_at": "2026-09-18T04:23:20.313329+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
     },
     "v2ray_free_nodes": {
-      "consecutive_failures": 18,
+      "consecutive_failures": 19,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-17T04:38:08.869933+00:00",
+      "last_probed_at": "2026-09-18T04:23:20.267215+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
