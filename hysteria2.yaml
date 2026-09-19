@@ -9,28 +9,11 @@ proxies:
   udp: true
   sni: hopp-germany-new.ddnsguru.com
   skip-cert-verify: true
-- name: 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 142.249.37.90
-  port: 44356
-  password: dongtaiwang.com
-  udp: true
-  sni: hy2.561891.xyz
-- name: 🇫🇷 France/Paris [GH:barry-far/V2r]
-  type: hysteria2
-  server: 62.210.7.139
-  port: 60111
-  password: github.com/Alvin9999-newpac/fanqiang
-  udp: true
-  sni: bing.com
-  skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
   - 🇷🇴 Romania [GH:ermaozi/get_s]
-  - 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
-  - 🇫🇷 France/Paris [GH:barry-far/V2r]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
