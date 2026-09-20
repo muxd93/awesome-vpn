@@ -1,12 +1,12 @@
 {
   "channels": {
     "AG77GO": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "discovered_from": "ripaojiedian",
       "first_seen_at": "2026-09-17T04:38:08.993325+00:00",
-      "last_probed_at": "2026-09-19T04:20:12.456292+00:00",
+      "last_probed_at": "2026-09-20T04:38:44.794769+00:00",
       "last_seen_at": "2026-09-17T04:38:08.993325+00:00",
-      "status": "candidate",
+      "status": "frozen",
       "total_nodes_yielded": 0
     },
     "Byd5369": {
@@ -28,10 +28,10 @@
       "total_nodes_yielded": 0
     },
     "free_v2ray": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-19T04:20:12.419983+00:00",
+      "last_probed_at": "2026-09-20T04:38:44.790820+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
@@ -64,28 +64,28 @@
       "total_nodes_yielded": 0
     },
     "ripaojiedian": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-19T04:20:12.596104+00:00",
+      "last_probed_at": "2026-09-20T04:38:45.024259+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
     },
     "v2list": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-19T04:20:12.492632+00:00",
+      "last_probed_at": "2026-09-20T04:38:44.864098+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0
     },
     "v2ray_free_nodes": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "discovered_from": "seed",
       "first_seen_at": "2026-09-04T00:00:00Z",
-      "last_probed_at": "2026-09-19T04:20:12.417163+00:00",
+      "last_probed_at": "2026-09-20T04:38:44.790265+00:00",
       "last_seen_at": "2026-09-04T00:00:00Z",
       "status": "active",
       "total_nodes_yielded": 0

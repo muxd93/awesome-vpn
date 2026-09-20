@@ -1,19 +1,19 @@
 port: 7890
 mode: Rule
 proxies:
-- name: 🇷🇴 Romania [GH:ermaozi/get_s]
+- name: 🇫🇷 France/Paris [GH:barry-far/V2r]
   type: hysteria2
-  server: 162.249.126.7
-  port: 8443
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
   udp: true
-  sni: hopp-germany-new.ddnsguru.com
+  sni: bing.com
   skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇷🇴 Romania [GH:ermaozi/get_s]
+  - 🇫🇷 France/Paris [GH:barry-far/V2r]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
