@@ -9,11 +9,19 @@ proxies:
   udp: true
   sni: bing.com
   skip-cert-verify: true
+- name: 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
+  type: hysteria2
+  server: akmgzz.jiedddym.com
+  port: 49490
+  password: 17ab31f7-c021-4aec-83b2-ab48de8886bd
+  udp: true
+  skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
   - 🇫🇷 France/Paris [GH:barry-far/V2r]
+  - 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
