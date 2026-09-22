@@ -1,58 +1,9 @@
 {
   "outbounds": [
     {
-      "tag": "Germany/Frankfurt am Main [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "144.31.168.95",
-      "server_port": 443,
-      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "eu-central.cendora.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
-          "short_id": "00bca5982f82d083"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Germany/Eschborn [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "31.184.244.162",
-      "server_port": 2053,
-      "uuid": "60a361f9-3c45-4954-9e4c-92a85bda243d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.google.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "mzrVbIsEggpJfXR8M7yxki2vgv3sXWQdy1bGhXqatUY",
-          "short_id": "4881f8244d1b9021"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
       "tag": "Germany [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "169.40.42.225",
+      "server": "169.40.42.52",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
@@ -96,9 +47,32 @@
       }
     },
     {
+      "tag": "United States/Hillsboro [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "51.81.203.63",
+      "server_port": 443,
+      "uuid": "cb2dbb6a-a1ea-4023-9ace-6466cee57241",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.icloud.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0",
+          "short_id": "4477382ff6d3d41c"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "Germany [GH:Surfboardv2ra] #3",
       "type": "vless",
-      "server": "169.40.42.75",
+      "server": "169.40.42.224",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
@@ -119,44 +93,20 @@
       }
     },
     {
-      "tag": "Germany [GH:Surfboardv2ra] #4",
+      "tag": "United States [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "169.40.42.229",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "server": "198.251.78.29",
+      "server_port": 2053,
+      "uuid": "c423cc1b-f88e-421c-9a16-c480d84da20f",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "yahoo.com",
+        "server_name": "www.cloudflare.com",
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States/Miami [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "us05.shifor01.life",
-      "server_port": 443,
-      "uuid": "11f21602-47aa-42e2-9149-69120f2e6df6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "us05.shifor01.life",
-        "reality": {
-          "enabled": true,
-          "public_key": "36sTeaLdaAjQQxxzh492XihoPi2YxmttQyncmLuxYHE",
-          "short_id": "169fc2df88419465"
+          "public_key": "Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw",
+          "short_id": "b5d625695ec82c7e"
         },
         "utls": {
           "enabled": true,
@@ -167,7 +117,7 @@
     {
       "tag": "United States/North Bergen [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "ww9.levikogjgfdd.ir",
+      "server": "137.184.218.169",
       "server_port": 36925,
       "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
       "packet_encoding": "xudp",
@@ -181,384 +131,79 @@
           "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
         },
         "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "United States/Secaucus [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "195.123.235.177",
-      "server_port": 443,
-      "uuid": "729dd5f2-f5ff-4070-8c10-863eceded0b1",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "gateway.icloud.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI",
-          "short_id": "c85d029f5e8eb393"
-        },
-        "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       }
     },
     {
-      "tag": "United States/Kansas City [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "de5.edge-9d7c.com",
+      "tag": "United States [GH:Surfboardv2ra] #2",
+      "type": "trojan",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "password": "MiTIVPN",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "de5.edge-9d7c.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM",
-          "short_id": "9d84de9d9f7b85e9"
-        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "server_name": "ssl.fastly.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "United States [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "de3.edge-9d7c.com",
-      "server_port": 443,
-      "uuid": "ddf09ad0-02dc-485b-9048-1038de5bebf0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "de3.edge-9d7c.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM",
-          "short_id": "9d84de9d9f7b85e9"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "United States/North Bergen [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "159.89.87.21",
-      "server_port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "aws.amazon.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States/San Francisco [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "172.67.189.79",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-d536262105ae",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "ez-30c541.aliminaie277.workers.dev"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream/PANEL_ZEUS/d536262105ae",
-        "headers": {
-          "Host": "ez-30c541.aliminaie277.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "France [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "152.228.139.33",
-      "server_port": 35108,
-      "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.nvidia.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg",
-          "short_id": "52add08b86a5ccea"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-common3"
-      }
-    },
-    {
-      "tag": "France [GH:ermaozi/get_s]",
-      "type": "vless",
-      "server": "152.228.139.33",
-      "server_port": 51671,
-      "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.sony.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "-5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU",
-          "short_id": "2fed44d8c59f7e71"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc_common3"
-      }
-    },
-    {
-      "tag": "United States/San Francisco [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "104.18.40.152",
-      "server_port": 443,
-      "uuid": "30235bbe-f791-4e53-89f9-5d9363af9b0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "sie704.pages.dev"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "sie704.pages.dev"
+          "Host": "mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net"
         }
       }
     },
     {
-      "tag": "United States/San Francisco [GH:Surfboardv2ra] #3",
-      "type": "vless",
-      "server": "teddy.automizely.com",
+      "tag": "United States [GH:Surfboardv2ra] #3",
+      "type": "trojan",
+      "server": "151.101.56.56",
       "server_port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "packet_encoding": "xudp",
+      "password": "MiTIVPN",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "xi.tbv.ccwu.cc"
+        "alpn": [
+          "http/1.1"
+        ],
+        "server_name": "ssl.fastly.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
+        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
         "headers": {
-          "Host": "xi.tbv.ccwu.cc"
+          "Host": "mitivpn---ss--s---mitivpn-66e.global.ssl.fastly.net"
         }
       }
     },
     {
-      "tag": "United States/San Francisco [GH:Surfboardv2ra] #4",
+      "tag": "United States/Hillsboro [GH:Mahdi0024/Pro]",
       "type": "vless",
-      "server": "104.18.42.163",
-      "server_port": 443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "Germany/Falkenstein [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "91.98.44.116",
+      "server": "5.78.28.48",
       "server_port": 80,
-      "uuid": "39cd736f-d129-4e75-ac39-77f6cf233450",
+      "uuid": "2be98d5e-6eed-445d-aef4-9c776fdd03af",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.yahoo.com",
+        "server_name": "5.78.159.97",
         "reality": {
           "enabled": true,
-          "public_key": "KDmlFjsZuxHYEHYtFZh-3sLmrkt_KmcxA-sG8twBqxM",
-          "short_id": "d2549f367a3ed3cc"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States/San Francisco [GH:Surfboardv2ra] #5",
-      "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfvvv-ev1.pages.dev"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI",
-        "headers": {
-          "Host": "cfvvv-ev1.pages.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "United States/Miami [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "45.58.126.115",
-      "server_port": 8444,
-      "uuid": "ad297a2b-ae17-4d2d-8fce-e2eafb89b145",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nbcnews.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "OyUyHy3-04xKvFMvAzUbiVf7tkWX2a_gC2E_sEHGVw8",
-          "short_id": "08"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States/Hillsboro [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "15.204.97.197",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "51.158.206.103",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "51.158.206.80",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Norway/Nordland [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "46.29.238.88",
-      "server_port": 40443,
-      "uuid": "db320947-adfb-400d-b60b-383b8324bffe",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "deepl.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
-          "short_id": "f7b2"
+          "public_key": "u42o3SnK9nE0nEUNd1JREM03dsT7N_c-m2rECXFCCHg",
+          "short_id": "ed87fb8386bbbbe5"
         },
         "utls": {
           "enabled": true,
@@ -590,10 +235,25 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "United States/San Francisco [GH:Surfboardv2ra] #6",
+      "tag": "United States/San Francisco [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "162.159.38.127",
-      "server_port": 2052,
+      "server": "104.18.28.234",
+      "server_port": 8880,
+      "uuid": "142d1453-9cfe-4045-8e54-f3fb33342185",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip",
+        "headers": {
+          "Host": "lively-scene-744f.107-47a.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "United States/San Francisco [GH:ermaozi/get_s]",
+      "type": "vless",
+      "server": "172.64.229.170",
+      "server_port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "packet_encoding": "xudp",
       "transport": {
@@ -605,234 +265,31 @@
       }
     },
     {
-      "tag": "United States/Phoenix [GH:Mahdi0024/Pro]",
+      "tag": "Japan/Tokyo [GH:ermaozi/get_s]",
       "type": "shadowsocks",
-      "server": "173.244.56.6",
+      "server": "18.181.165.254",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/Staten Island [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "198.98.53.130",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eDfN7SODQceIOmIAbtJJtK"
-    },
-    {
-      "tag": "United States/Dallas [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "156.146.38.168",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "France/Paris [GH:barry-far/V2r]",
-      "type": "hysteria2",
-      "server": "62.210.7.139",
-      "server_port": 60111,
-      "password": "github.com/Alvin9999-newpac/fanqiang",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "United States/New York [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "37.19.198.160",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/Dallas [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "156.146.38.170",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/Phoenix [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "173.244.56.9",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/Dallas [GH:Surfboardv2ra]",
-      "type": "shadowsocks",
-      "server": "156.146.38.169",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/New York [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "37.19.198.236",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/New York [GH:Mahdi0024/Pro] #3",
-      "type": "shadowsocks",
-      "server": "37.19.198.244",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
-      "type": "shadowsocks",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bQZl7HDxSabr1FurTYQHFU"
-    },
-    {
-      "tag": "France [GH:ermaozi/get_s] #2",
-      "type": "shadowsocks",
-      "server": "54.36.174.140",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mrs2e9a"
-    },
-    {
-      "tag": "The Netherlands [GH:Surfboardv2ra]",
-      "type": "shadowsocks",
-      "server": "193.29.139.212",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "tag": "United States/Los Angeles [GH:ermaozi/get_s]",
-      "type": "hysteria2",
-      "server": "akmgzz.jiedddym.com",
-      "server_port": 49490,
-      "password": "17ab31f7-c021-4aec-83b2-ab48de8886bd",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "United States/Reston [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "15.204.246.132",
-      "server_port": 7307,
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
-    },
-    {
-      "tag": "Germany/Frankfurt am Main [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "209.46.102.22",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1hhrqrokj3ag"
-    },
-    {
-      "tag": "Germany/Frankfurt am Main [GH:Mahdi0024/Pro] #3",
-      "type": "shadowsocks",
-      "server": "185.226.172.8",
-      "server_port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
-    },
-    {
-      "tag": "Germany/Frankfurt am Main [GH:Mahdi0024/Pro] #4",
-      "type": "shadowsocks",
-      "server": "8.209.74.72",
-      "server_port": 20001,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PWpjPo3tqhPN4yRZ"
-    },
-    {
-      "tag": "Norway/Oslo [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "185.213.23.63",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
-      "tag": "The Netherlands/Amsterdam [GH:ermaozi/get_s]",
-      "type": "shadowsocks",
-      "server": "158.180.13.225",
-      "server_port": 45819,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "Of7TrBg1GnSUFQJEGoe1K0d9USdAzgjzMlrfKwk0aLM="
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
       "type": "urltest",
       "tag": "Auto",
       "outbounds": [
-        "Germany/Frankfurt am Main [GH:Mahdi0024/Pro]",
-        "Germany/Eschborn [GH:Surfboardv2ra]",
         "Germany [GH:Surfboardv2ra]",
         "Germany [GH:Surfboardv2ra] #2",
-        "Germany [GH:Surfboardv2ra] #3",
-        "Germany [GH:Surfboardv2ra] #4",
-        "United States/Miami [GH:Surfboardv2ra]",
-        "United States/North Bergen [GH:Surfboardv2ra]",
-        "United States/Secaucus [GH:Mahdi0024/Pro]",
-        "United States/Kansas City [GH:Mahdi0024/Pro]",
-        "United States [GH:Surfboardv2ra]",
-        "United States/North Bergen [GH:Surfboardv2ra] #2",
-        "United States/San Francisco [GH:Surfboardv2ra]",
-        "France [GH:Surfboardv2ra]",
-        "France [GH:ermaozi/get_s]",
-        "United States/San Francisco [GH:Surfboardv2ra] #2",
-        "United States/San Francisco [GH:Surfboardv2ra] #3",
-        "United States/San Francisco [GH:Surfboardv2ra] #4",
-        "Germany/Falkenstein [GH:Mahdi0024/Pro]",
-        "United States/San Francisco [GH:Surfboardv2ra] #5",
-        "United States/Miami [GH:Surfboardv2ra] #2",
         "United States/Hillsboro [GH:Surfboardv2ra]",
-        "The Netherlands/Haarlem [GH:Surfboardv2ra]",
-        "The Netherlands/Haarlem [GH:Surfboardv2ra] #2",
-        "Norway/Nordland [GH:Mahdi0024/Pro]",
+        "Germany [GH:Surfboardv2ra] #3",
+        "United States [GH:Surfboardv2ra]",
+        "United States/North Bergen [GH:Surfboardv2ra]",
+        "United States [GH:Surfboardv2ra] #2",
+        "United States [GH:Surfboardv2ra] #3",
+        "United States/Hillsboro [GH:Mahdi0024/Pro]",
         "United States/San Francisco [GH:barry-far/V2r]",
         "United States/Dallas [GH:barry-far/V2r]",
-        "United States/San Francisco [GH:Surfboardv2ra] #6",
-        "United States/Phoenix [GH:Mahdi0024/Pro]",
-        "United States/Staten Island [GH:Mahdi0024/Pro]",
-        "United States/Dallas [GH:Mahdi0024/Pro]",
-        "France/Paris [GH:barry-far/V2r]",
-        "United States/New York [GH:Mahdi0024/Pro]",
-        "United States/Dallas [GH:Mahdi0024/Pro] #2",
-        "United States/Phoenix [GH:Mahdi0024/Pro] #2",
-        "United States/Dallas [GH:Surfboardv2ra]",
-        "United States/New York [GH:Mahdi0024/Pro] #2",
-        "United States/New York [GH:Mahdi0024/Pro] #3",
-        "United States/Los Angeles [GH:Surfboardv2ra]",
-        "France [GH:ermaozi/get_s] #2",
-        "The Netherlands [GH:Surfboardv2ra]",
-        "United States/Los Angeles [GH:ermaozi/get_s]",
-        "United States/Reston [GH:Mahdi0024/Pro]",
-        "Germany/Frankfurt am Main [GH:Mahdi0024/Pro] #2",
-        "Germany/Frankfurt am Main [GH:Mahdi0024/Pro] #3",
-        "Germany/Frankfurt am Main [GH:Mahdi0024/Pro] #4",
-        "Norway/Oslo [GH:Mahdi0024/Pro]",
-        "The Netherlands/Amsterdam [GH:ermaozi/get_s]"
+        "United States/San Francisco [GH:Surfboardv2ra]",
+        "United States/San Francisco [GH:ermaozi/get_s]",
+        "Japan/Tokyo [GH:ermaozi/get_s]"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "5m",
