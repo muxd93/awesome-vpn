@@ -1,18 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇺🇸 United States/North Bergen [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 159.223.157.129
-  port: 8443
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  udp: true
-  skip-cert-verify: true
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States/North Bergen [GH:ermaozi/get_s]
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
