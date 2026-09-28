@@ -1,98 +1,6 @@
 {
   "outbounds": [
     {
-      "tag": "Germany [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "169.40.42.184",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Germany [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "169.40.42.15",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "47.90.153.88",
-      "server_port": 443,
-      "uuid": "1e255ca5-93b1-4952-a838-0783dfc034d8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.apple.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "QtYyp41YbDij6nygTaPPpqXqEGzDD3wYFI3YlfTjfBo",
-          "short_id": "6b85179e"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Germany [GH:Mahdi0024/Pro] #2",
-      "type": "vless",
-      "server": "169.40.42.232",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
       "tag": "United States/Hillsboro [GH:barry-far/V2r]",
       "type": "vless",
       "server": "15.204.97.216",
@@ -112,32 +20,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States/Chicago [GH:barry-far/V2r]",
-      "type": "trojan",
-      "server": "199.232.78.160",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "server_name": "ssl.fastly.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mitivpn---us--s---mitivpn-1.global.ssl.fastly.net"
         }
       }
     },
@@ -168,6 +50,46 @@
       }
     },
     {
+      "tag": "United States/San Francisco [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "104.21.70.21",
+      "server_port": 443,
+      "uuid": "8525fe74-67e6-4a55-8a26-95f227bd1384",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "damp-dawn-3a96.alvlirm123.workers.dev"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "damp-dawn-3a96.alvlirm123.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "United States/San Francisco [GH:Surfboardv2ra] #2",
+      "type": "vless",
+      "server": "104.21.31.137",
+      "server_port": 443,
+      "uuid": "59c70620-d2f3-4255-9d6f-f4c5103d64ce",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "59fssIBE-SDDrRs3qW83QQZz0H1NT-o.q7qwsxItB6BYi5nMTa4naAlz.woRkErs.deV"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/FpYFoMlg8sRpgV7SSaOaRYa3fagqGu?ed",
+        "headers": {
+          "Host": "59fssibe-sddrrs3qw83qqzz0h1nt-o.q7qwsxitb6byi5nmta4naalz.workers.dev"
+        }
+      }
+    },
+    {
       "tag": "United States/Hillsboro [GH:barry-far/V2r] #2",
       "type": "vless",
       "server": "15.204.97.197",
@@ -191,9 +113,35 @@
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Mahdi0024/Pro]",
+      "tag": "United States [GH:barry-far/V2r] #2",
+      "type": "trojan",
+      "server": "151.101.56.9",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "server_name": "ssl.fastly.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "mitivpn---gb--s---mitivpn-1.global.ssl.fastly.net"
+        }
+      }
+    },
+    {
+      "tag": "United States/Hillsboro [GH:barry-far/V2r] #3",
       "type": "vless",
-      "server": "51.158.206.25",
+      "server": "15.204.97.206",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -208,15 +156,14 @@
           "short_id": "01"
         },
         "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "enabled": true
         }
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
+      "tag": "United States/Hillsboro [GH:barry-far/V2r] #4",
       "type": "vless",
-      "server": "51.158.206.86",
+      "server": "15.204.97.219",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -252,7 +199,7 @@
       }
     },
     {
-      "tag": "United States/Dallas [GH:barry-far/V2r]",
+      "tag": "United States/Dallas [GH:Mahdi0024/Pro]",
       "type": "shadowsocks",
       "server": "156.146.38.167",
       "server_port": 443,
@@ -260,31 +207,63 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro]",
+      "tag": "United States/Staten Island [GH:Mahdi0024/Pro]",
       "type": "shadowsocks",
-      "server": "82.38.31.175",
+      "server": "198.98.53.130",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "password": "eDfN7SODQceIOmIAbtJJtK"
     },
     {
-      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro]",
+      "tag": "United States/Dallas [GH:Mahdi0024/Pro] #2",
       "type": "shadowsocks",
-      "server": "18.181.165.254",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "149.22.87.241",
+      "server": "156.146.38.169",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
-      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro] #3",
+      "tag": "United States/New York [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "37.19.198.160",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "United States/Phoenix [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "173.244.56.9",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "United States/Dallas [GH:Mahdi0024/Pro] #3",
+      "type": "shadowsocks",
+      "server": "156.146.38.170",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "United States/Dallas [GH:Mahdi0024/Pro] #4",
+      "type": "shadowsocks",
+      "server": "156.146.38.168",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "United States/New York [GH:Mahdi0024/Pro] #2",
+      "type": "shadowsocks",
+      "server": "37.19.198.236",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro]",
       "type": "shadowsocks",
       "server": "149.22.87.204",
       "server_port": 443,
@@ -292,48 +271,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "Italy/Siziano [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "204.216.216.23",
-      "server_port": 10086,
-      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "82.38.31.36",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "France [GH:Surfboardv2ra]",
-      "type": "shadowsocks",
-      "server": "51.255.13.232",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "BqnqToih0PbU"
-    },
-    {
-      "tag": "United States/San Jose [GH:ermaozi/get_s]",
-      "type": "hysteria2",
-      "server": "163.192.14.135",
-      "server_port": 50160,
-      "password": "099830134df5ac3a04a4b21d39b8c395",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro] #4",
+      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro] #2",
       "type": "shadowsocks",
       "server": "149.22.87.240",
       "server_port": 443,
@@ -341,264 +279,251 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "The Netherlands/Rozendaal [GH:Mahdi0024/Pro]",
+      "tag": "United States/San Francisco [GH:Surfboardv2ra] #3",
+      "type": "vless",
+      "server": "172.67.131.114",
+      "server_port": 2086,
+      "uuid": "9ef1d60d-9e38-49c5-9405-131e11be1f9c",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
+        "headers": {
+          "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:Mahdi0024/Pro]",
       "type": "shadowsocks",
-      "server": "109.201.152.181",
+      "server": "108.181.0.177",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G5p6ww4o67HB"
+    },
+    {
+      "tag": "Canada/Vancouver [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "149.22.95.183",
       "server_port": 443,
-      "method": "aes-128-cfb",
+      "method": "aes-128-gcm",
       "password": "shadowsocks"
     },
     {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #3",
+      "tag": "United States/New York [GH:Mahdi0024/Pro] #3",
       "type": "shadowsocks",
-      "server": "82.38.31.174",
+      "server": "37.19.198.244",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "Canada [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "142.4.216.225",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "password": "mrs2e9a"
     },
     {
-      "tag": "Sweden/Stockholm [GH:ermaozi/get_s]",
+      "tag": "United States/New York [GH:Mahdi0024/Pro] #4",
       "type": "shadowsocks",
-      "server": "13.51.242.39",
+      "server": "37.19.198.243",
       "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #4",
+      "tag": "United States/Reston [GH:Mahdi0024/Pro]",
       "type": "shadowsocks",
-      "server": "82.38.31.156",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #5",
-      "type": "shadowsocks",
-      "server": "82.38.31.16",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #6",
-      "type": "shadowsocks",
-      "server": "82.38.31.47",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #7",
-      "type": "shadowsocks",
-      "server": "82.38.31.3",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "United Kingdom/City of London [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "52.56.145.227",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "France/Paris [GH:ermaozi/get_s]",
-      "type": "vless",
-      "server": "13.37.167.120",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "United Kingdom/City of London [GH:ermaozi/get_s]",
-      "type": "vless",
-      "server": "18.169.206.105",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "United Kingdom/City of London [GH:ermaozi/get_s] #2",
-      "type": "vless",
-      "server": "18.169.206.105",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #8",
-      "type": "shadowsocks",
-      "server": "82.38.31.182",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "tag": "The Netherlands/Amsterdam [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "108.181.126.122",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "CJmTCCx7Ltud"
-    },
-    {
-      "tag": "The Netherlands/Amsterdam [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "108.181.58.239",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "CJmTCCx7Ltud"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #9",
-      "type": "shadowsocks",
-      "server": "82.38.31.149",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "Canada [GH:Surfboardv2ra]",
-      "type": "shadowsocks",
-      "server": "51.79.49.116",
-      "server_port": 8882,
+      "server": "15.204.246.132",
+      "server_port": 7307,
       "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
+      "password": "FoOiGlkAA9yPEGP"
     },
     {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #10",
+      "tag": "Canada [GH:Mahdi0024/Pro] #2",
       "type": "shadowsocks",
-      "server": "82.38.31.203",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "tag": "Lithuania [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "195.238.126.20",
-      "server_port": 9068,
-      "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #11",
-      "type": "shadowsocks",
-      "server": "82.38.31.155",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "Lithuania [GH:Mahdi0024/Pro] #2",
-      "type": "shadowsocks",
-      "server": "195.238.126.20",
-      "server_port": 9086,
-      "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
-    },
-    {
-      "tag": "Lithuania [GH:Mahdi0024/Pro] #3",
-      "type": "shadowsocks",
-      "server": "195.238.126.20",
-      "server_port": 9002,
-      "method": "aes-256-cfb",
-      "password": "b8KkNDjEd5QqFyRm"
-    },
-    {
-      "tag": "Lithuania [GH:Mahdi0024/Pro] #4",
-      "type": "shadowsocks",
-      "server": "195.238.126.20",
-      "server_port": 9008,
-      "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
-    },
-    {
-      "tag": "Sweden/Spånga [GH:Mahdi0024/Pro]",
-      "type": "shadowsocks",
-      "server": "70.34.212.124",
+      "server": "15.235.75.71",
       "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
-    },
-    {
-      "tag": "United Kingdom [GH:Mahdi0024/Pro] #12",
-      "type": "shadowsocks",
-      "server": "82.38.31.7",
-      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "password": "FD3rCuOsxOay"
     },
     {
-      "tag": "United Kingdom [GH:Surfboardv2ra]",
+      "tag": "United Kingdom/Slough [GH:barry-far/V2r]",
       "type": "shadowsocks",
-      "server": "82.38.31.164",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "tag": "Sweden/Stockholm [GH:Surfboardv2ra]",
-      "type": "shadowsocks",
-      "server": "172.238.244.13",
+      "server": "143.110.161.156",
       "server_port": 17000,
       "method": "aes-256-gcm",
       "password": "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
     },
     {
+      "tag": "Japan/Tokyo [GH:Mahdi0024/Pro] #3",
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
+    },
+    {
+      "tag": "United States/Dallas [GH:Mahdi0024/Pro] #5",
+      "type": "shadowsocks",
+      "server": "23.150.248.20",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qB2Cv9VIlujj"
+    },
+    {
+      "tag": "United States/New York [GH:Mahdi0024/Pro] #5",
+      "type": "shadowsocks",
+      "server": "38.180.135.156",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "YHtesZ0qvgtg"
+    },
+    {
+      "tag": "Canada/Toronto [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "185.156.47.97",
+      "server_port": 9443,
+      "method": "aes-256-gcm",
+      "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH"
+    },
+    {
+      "tag": "Canada/Toronto [GH:Mahdi0024/Pro] #2",
+      "type": "shadowsocks",
+      "server": "yyz-ca-01.blncvpn4u.cc",
+      "server_port": 9443,
+      "method": "aes-256-gcm",
+      "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH"
+    },
+    {
+      "tag": "United States/Ashburn [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "108.181.57.93",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "RSo52SbxW40r"
+    },
+    {
+      "tag": "United States/Hillsboro [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "5.78.51.123",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8tmnvX5zYuWGVIDP2jglZw"
+    },
+    {
+      "tag": "Canada [GH:Mahdi0024/Pro] #3",
+      "type": "shadowsocks",
+      "server": "108.181.118.10",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G5p6ww4o67HB"
+    },
+    {
+      "tag": "Canada [GH:Mahdi0024/Pro] #4",
+      "type": "shadowsocks",
+      "server": "51.222.200.165",
+      "server_port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "United States/Piscataway [GH:Mahdi0024/Pro]",
+      "type": "shadowsocks",
+      "server": "140.82.63.79",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZoZtfPOyVvmKARUN"
+    },
+    {
+      "tag": "Canada [GH:Mahdi0024/Pro] #5",
+      "type": "shadowsocks",
+      "server": "51.79.64.198",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "tag": "Canada [GH:Mahdi0024/Pro] #6",
+      "type": "shadowsocks",
+      "server": "51.222.155.32",
+      "server_port": 5003,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId"
+    },
+    {
+      "tag": "United States/Los Angeles [GH:Mahdi0024/Pro] #2",
+      "type": "shadowsocks",
+      "server": "192.3.247.109",
+      "server_port": 43579,
+      "method": "aes-256-gcm",
+      "password": "8c009bb6-08b3-4526-a86b-5af7ddfc567a-4c757b72-6eec-4faf-8c2e-09fd1c7fa936"
+    },
+    {
+      "tag": "Germany/Frankfurt am Main [GH:ermaozi/get_s]",
+      "type": "shadowsocks",
+      "server": "130.61.227.119",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "QQyhsWE4kraFnuIyxSx/tfdFnd1+IUu3YrQM92BGVrQ="
+    },
+    {
+      "tag": "The Netherlands/Amsterdam [GH:ermaozi/get_s]",
+      "type": "shadowsocks",
+      "server": "158.101.192.220",
+      "server_port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "tWDq/qplPVZPp9FHByeWAK50WfaKq2n77o2RFHUFLGI="
+    },
+    {
       "type": "urltest",
       "tag": "Auto",
       "outbounds": [
-        "Germany [GH:Surfboardv2ra]",
-        "Germany [GH:Mahdi0024/Pro]",
-        "United States [GH:Surfboardv2ra]",
-        "Germany [GH:Mahdi0024/Pro] #2",
         "United States/Hillsboro [GH:barry-far/V2r]",
-        "United States/Chicago [GH:barry-far/V2r]",
         "United States [GH:barry-far/V2r]",
+        "United States/San Francisco [GH:Surfboardv2ra]",
+        "United States/San Francisco [GH:Surfboardv2ra] #2",
         "United States/Hillsboro [GH:barry-far/V2r] #2",
-        "The Netherlands/Haarlem [GH:Mahdi0024/Pro]",
-        "The Netherlands/Haarlem [GH:Surfboardv2ra]",
+        "United States [GH:barry-far/V2r] #2",
+        "United States/Hillsboro [GH:barry-far/V2r] #3",
+        "United States/Hillsboro [GH:barry-far/V2r] #4",
         "United States/San Francisco [GH:barry-far/V2r]",
-        "United States/Dallas [GH:barry-far/V2r]",
-        "United Kingdom [GH:Mahdi0024/Pro]",
+        "United States/Dallas [GH:Mahdi0024/Pro]",
+        "United States/Staten Island [GH:Mahdi0024/Pro]",
+        "United States/Dallas [GH:Mahdi0024/Pro] #2",
+        "United States/New York [GH:Mahdi0024/Pro]",
+        "United States/Phoenix [GH:Mahdi0024/Pro]",
+        "United States/Dallas [GH:Mahdi0024/Pro] #3",
+        "United States/Dallas [GH:Mahdi0024/Pro] #4",
+        "United States/New York [GH:Mahdi0024/Pro] #2",
         "Japan/Tokyo [GH:Mahdi0024/Pro]",
         "Japan/Tokyo [GH:Mahdi0024/Pro] #2",
+        "United States/San Francisco [GH:Surfboardv2ra] #3",
+        "United States/Los Angeles [GH:Mahdi0024/Pro]",
+        "Canada/Vancouver [GH:Mahdi0024/Pro]",
+        "United States/New York [GH:Mahdi0024/Pro] #3",
+        "Canada [GH:Mahdi0024/Pro]",
+        "United States/New York [GH:Mahdi0024/Pro] #4",
+        "United States/Reston [GH:Mahdi0024/Pro]",
+        "Canada [GH:Mahdi0024/Pro] #2",
+        "United Kingdom/Slough [GH:barry-far/V2r]",
         "Japan/Tokyo [GH:Mahdi0024/Pro] #3",
-        "Italy/Siziano [GH:Surfboardv2ra]",
-        "United Kingdom [GH:Mahdi0024/Pro] #2",
-        "France [GH:Surfboardv2ra]",
-        "United States/San Jose [GH:ermaozi/get_s]",
-        "Japan/Tokyo [GH:Mahdi0024/Pro] #4",
-        "The Netherlands/Rozendaal [GH:Mahdi0024/Pro]",
-        "United Kingdom [GH:Mahdi0024/Pro] #3",
-        "Sweden/Stockholm [GH:ermaozi/get_s]",
-        "United Kingdom [GH:Mahdi0024/Pro] #4",
-        "United Kingdom [GH:Mahdi0024/Pro] #5",
-        "United Kingdom [GH:Mahdi0024/Pro] #6",
-        "United Kingdom [GH:Mahdi0024/Pro] #7",
-        "United Kingdom/City of London [GH:Surfboardv2ra]",
-        "France/Paris [GH:ermaozi/get_s]",
-        "United Kingdom/City of London [GH:ermaozi/get_s]",
-        "United Kingdom/City of London [GH:ermaozi/get_s] #2",
-        "United Kingdom [GH:Mahdi0024/Pro] #8",
-        "The Netherlands/Amsterdam [GH:Mahdi0024/Pro]",
-        "The Netherlands/Amsterdam [GH:Mahdi0024/Pro] #2",
-        "United Kingdom [GH:Mahdi0024/Pro] #9",
-        "Canada [GH:Surfboardv2ra]",
-        "United Kingdom [GH:Mahdi0024/Pro] #10",
-        "Lithuania [GH:Mahdi0024/Pro]",
-        "United Kingdom [GH:Mahdi0024/Pro] #11",
-        "Lithuania [GH:Mahdi0024/Pro] #2",
-        "Lithuania [GH:Mahdi0024/Pro] #3",
-        "Lithuania [GH:Mahdi0024/Pro] #4",
-        "Sweden/Spånga [GH:Mahdi0024/Pro]",
-        "United Kingdom [GH:Mahdi0024/Pro] #12",
-        "United Kingdom [GH:Surfboardv2ra]",
-        "Sweden/Stockholm [GH:Surfboardv2ra]"
+        "United States/Dallas [GH:Mahdi0024/Pro] #5",
+        "United States/New York [GH:Mahdi0024/Pro] #5",
+        "Canada/Toronto [GH:Mahdi0024/Pro]",
+        "Canada/Toronto [GH:Mahdi0024/Pro] #2",
+        "United States/Ashburn [GH:Mahdi0024/Pro]",
+        "United States/Hillsboro [GH:Mahdi0024/Pro]",
+        "Canada [GH:Mahdi0024/Pro] #3",
+        "Canada [GH:Mahdi0024/Pro] #4",
+        "United States/Piscataway [GH:Mahdi0024/Pro]",
+        "Canada [GH:Mahdi0024/Pro] #5",
+        "Canada [GH:Mahdi0024/Pro] #6",
+        "United States/Los Angeles [GH:Mahdi0024/Pro] #2",
+        "Germany/Frankfurt am Main [GH:ermaozi/get_s]",
+        "The Netherlands/Amsterdam [GH:ermaozi/get_s]"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "5m",
