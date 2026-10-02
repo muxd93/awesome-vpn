@@ -41,14 +41,15 @@
           "short_id": "c39cc7310a"
         },
         "utls": {
-          "enabled": true
+          "enabled": true,
+          "fingerprint": "ios"
         }
       }
     },
     {
       "tag": "Germany [GH:barry-far/V2r] #2",
       "type": "vless",
-      "server": "169.40.42.235",
+      "server": "169.40.42.232",
       "server_port": 443,
       "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
@@ -63,13 +64,34 @@
           "short_id": "c39cc7310a"
         },
         "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
+          "enabled": true
         }
       }
     },
     {
       "tag": "Germany [GH:barry-far/V2r] #3",
+      "type": "vless",
+      "server": "169.40.42.104",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "Germany [GH:barry-far/V2r] #4",
       "type": "vless",
       "server": "169.40.42.168",
       "server_port": 443,
@@ -92,7 +114,53 @@
       }
     },
     {
-      "tag": "Germany [GH:barry-far/V2r] #4",
+      "tag": "Germany [GH:barry-far/V2r] #5",
+      "type": "vless",
+      "server": "169.40.42.173",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "Germany [GH:Surfboardv2ra] #2",
+      "type": "vless",
+      "server": "169.40.42.75",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Germany [GH:barry-far/V2r] #6",
       "type": "vless",
       "server": "169.40.42.225",
       "server_port": 443,
@@ -115,28 +183,7 @@
       }
     },
     {
-      "tag": "United States/North Bergen [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "ww9.levikogjgfdd.ir",
-      "server_port": 36925,
-      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.cloudflare.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "Germany [GH:barry-far/V2r] #5",
+      "tag": "Germany [GH:barry-far/V2r] #7",
       "type": "vless",
       "server": "169.40.42.163",
       "server_port": 443,
@@ -159,74 +206,30 @@
       }
     },
     {
-      "tag": "Germany [GH:barry-far/V2r] #6",
-      "type": "vless",
-      "server": "169.40.42.104",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "Germany [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "169.40.42.182",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Germany [GH:barry-far/V2r] #7",
-      "type": "vless",
-      "server": "169.40.42.212",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "yahoo.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "Germany [GH:barry-far/V2r] #8",
+      "type": "vless",
+      "server": "169.40.42.15",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "Germany [GH:barry-far/V2r] #9",
       "type": "vless",
       "server": "169.40.42.89",
       "server_port": 443,
@@ -249,98 +252,32 @@
       }
     },
     {
-      "tag": "France/Paris [GH:Surfboardv2ra]",
+      "tag": "Germany [GH:barry-far/V2r] #10",
       "type": "vless",
-      "server": "fra.loozerp.wiki",
+      "server": "169.40.42.133",
       "server_port": 443,
-      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fra.loozerp.wiki",
+        "server_name": "yahoo.com",
         "reality": {
           "enabled": true,
-          "public_key": "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk",
-          "short_id": "ff776ff77be48b88"
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
         },
         "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "United States/Hillsboro [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "15.204.97.197",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
           "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true
+          "fingerprint": "ios"
         }
       }
     },
     {
       "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "51.158.206.86",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "United States [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "64.188.126.56",
-      "server_port": 43000,
-      "uuid": "47f79fc1-0646-40e8-8a58-73e85d183d5a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "64.188.126.56",
-        "reality": {
-          "enabled": true,
-          "public_key": "jjbMUO41S9JE7ou_zbbDStzSYLzJVN_0O-j0f6b380E",
-          "short_id": "bf4e20af99d3042d"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "51.158.206.29",
+      "server": "51.158.206.80",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
