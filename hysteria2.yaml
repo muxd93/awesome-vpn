@@ -1,11 +1,18 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇷🇴 Romania [GH:ermaozi/get_s]
+  type: hysteria2
+  server: 162.249.127.143
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  udp: true
+  sni: hop-germany-september.dynuddns.com
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇷🇴 Romania [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
