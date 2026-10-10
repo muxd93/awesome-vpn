@@ -1,11 +1,18 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: '🇺🇸 United States [GH:ermaozi/get_s] #2'
+  type: hysteria2
+  server: jp15.vatilon.cc
+  port: 10004
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  udp: true
+  skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - '🇺🇸 United States [GH:ermaozi/get_s] #2'
   url: https://www.google.com/generate_204
   interval: 300
 rules:
