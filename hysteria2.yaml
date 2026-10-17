@@ -1,11 +1,26 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
+  type: hysteria2
+  server: hy2.561891.xyz
+  port: 44356
+  password: dongtaiwang.com
+  udp: true
+  sni: hy2.561891.xyz
+- name: 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
+  type: hysteria2
+  server: 142.249.37.90
+  port: 44356
+  password: dongtaiwang.com
+  udp: true
+  sni: hy2.561891.xyz
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
+  - 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
