@@ -1,13 +1,6 @@
 port: 7890
 mode: Rule
 proxies:
-- name: 🇺🇸 United States/Columbus [GH:ermaozi/get_s]
-  type: hysteria2
-  server: clash2.deep-links.com
-  port: 443
-  password: 4c858cccff331e64c711a199a6cb256a
-  udp: true
-  sni: clash2.deep-links.com
 - name: 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
   type: hysteria2
   server: 198.46.146.118
@@ -16,21 +9,11 @@ proxies:
   udp: true
   sni: bing.com
   skip-cert-verify: true
-- name: 🇺🇸 United States/San Jose [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 163.192.14.135
-  port: 50160
-  password: 099830134df5ac3a04a4b21d39b8c395
-  udp: true
-  sni: vk.com
-  skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States/Columbus [GH:ermaozi/get_s]
   - 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
-  - 🇺🇸 United States/San Jose [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
