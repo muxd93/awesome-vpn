@@ -1,19 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 198.46.146.118
-  port: 36720
-  password: 4fUg3KH31LpMhko6o0Ka9Q
-  udp: true
-  sni: bing.com
-  skip-cert-verify: true
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States/Los Angeles [GH:ermaozi/get_s]
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
