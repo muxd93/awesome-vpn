@@ -1,26 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇺🇸 United States/San Jose [GH:Mahdi0024/Pro]
-  type: hysteria2
-  server: hy2.123266.xyz
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  udp: true
-  sni: hy2.123266.xyz
-- name: '🇺🇸 United States/San Jose [GH:Mahdi0024/Pro] #2'
-  type: hysteria2
-  server: 155.248.209.237
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  udp: true
-  sni: hy2.123266.xyz
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States/San Jose [GH:Mahdi0024/Pro]
-  - '🇺🇸 United States/San Jose [GH:Mahdi0024/Pro] #2'
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
