@@ -2,41 +2,41 @@
   "nodes": {
     "vmess://104.21.82.183:8880": {
       "first_seen_at": "2026-09-05T06:42:24.872105+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256316+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226822+00:00",
       "consecutive_passes": 0,
-      "total_checks": 59,
+      "total_checks": 60,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "hysteria2://54.213.89.22:443": {
       "first_seen_at": "2026-09-05T06:42:24.872127+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256269+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226932+00:00",
       "consecutive_passes": 0,
-      "total_checks": 55,
+      "total_checks": 56,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "hysteria2://181.214.99.162:35000": {
       "first_seen_at": "2026-09-05T06:42:24.872144+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256470+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226890+00:00",
       "consecutive_passes": 0,
-      "total_checks": 54,
+      "total_checks": 55,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vmess://gov.uk:443": {
       "first_seen_at": "2026-09-05T06:42:24.872148+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256366+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226783+00:00",
       "consecutive_passes": 0,
-      "total_checks": 59,
+      "total_checks": 60,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vmess://112.132.215.108:50002": {
       "first_seen_at": "2026-09-05T06:42:24.872208+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493870+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227494+00:00",
       "consecutive_passes": 0,
-      "total_checks": 47,
+      "total_checks": 48,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -77,9 +77,9 @@
     },
     "vless://199.232.78.159:443": {
       "first_seen_at": "2026-09-05T06:42:24.872319+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256310+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226834+00:00",
       "consecutive_passes": 0,
-      "total_checks": 50,
+      "total_checks": 51,
       "total_passes": 1,
       "avg_latency_ms": 913.8,
       "last_pass_at": "2026-10-07T05:37:09.059222+00:00"
@@ -152,19 +152,11 @@
       "avg_latency_ms": 772.8,
       "last_pass_at": "2026-09-27T05:02:29.396159+00:00"
     },
-    "vless://69.46.46.104:443": {
-      "first_seen_at": "2026-09-05T06:43:36.121419+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509817+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 9,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "trojan://www.calmlunch.com:443": {
       "first_seen_at": "2026-09-05T06:43:36.121512+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256438+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 19,
+      "last_seen_at": "2026-11-02T05:41:42.227440+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 20,
       "total_passes": 6,
       "avg_latency_ms": 756.4,
       "last_pass_at": "2026-11-01T05:43:13.256438+00:00"
@@ -245,12 +237,12 @@
     },
     "shadowsocks://141.98.101.181:443": {
       "first_seen_at": "2026-09-07T04:15:42.949766+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.682262+00:00",
-      "consecutive_passes": 10,
-      "total_checks": 10,
-      "total_passes": 10,
-      "avg_latency_ms": 345.7,
-      "last_pass_at": "2026-10-28T05:18:04.682262+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227542+00:00",
+      "consecutive_passes": 11,
+      "total_checks": 11,
+      "total_passes": 11,
+      "avg_latency_ms": 373.7,
+      "last_pass_at": "2026-11-02T05:41:42.227542+00:00"
     },
     "vless://199.232.78.159:80": {
       "first_seen_at": "2026-09-07T04:15:42.949834+00:00",
@@ -270,9 +262,9 @@
     },
     "hysteria2://91.142.73.159:36758": {
       "first_seen_at": "2026-09-07T04:15:42.949902+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256456+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226851+00:00",
       "consecutive_passes": 0,
-      "total_checks": 45,
+      "total_checks": 46,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -312,9 +304,9 @@
     },
     "hysteria2://giftcard.gateway-stream.com:52050": {
       "first_seen_at": "2026-09-08T04:16:30.395582+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493455+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226922+00:00",
       "consecutive_passes": 0,
-      "total_checks": 26,
+      "total_checks": 27,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -328,9 +320,9 @@
     },
     "hysteria2://179.61.132.96:8443": {
       "first_seen_at": "2026-09-08T04:16:30.395635+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256553+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226789+00:00",
       "consecutive_passes": 0,
-      "total_checks": 42,
+      "total_checks": 43,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -345,9 +337,9 @@
     },
     "vless://199.232.78.160:443": {
       "first_seen_at": "2026-09-08T04:16:30.395699+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256662+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227212+00:00",
       "consecutive_passes": 0,
-      "total_checks": 34,
+      "total_checks": 35,
       "total_passes": 1,
       "avg_latency_ms": 621.7,
       "last_pass_at": "2026-09-11T04:19:27.748840+00:00"
@@ -371,17 +363,17 @@
     },
     "hysteria2://bwdf2fnt.xn--e1aatfr8bwa.online:443": {
       "first_seen_at": "2026-09-08T04:16:30.395816+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.556990+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226865+00:00",
       "consecutive_passes": 0,
-      "total_checks": 31,
+      "total_checks": 32,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "hysteria2://5.175.249.174:35000": {
       "first_seen_at": "2026-09-08T04:16:30.395837+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256541+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226861+00:00",
       "consecutive_passes": 0,
-      "total_checks": 34,
+      "total_checks": 35,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -412,12 +404,12 @@
     },
     "shadowsocks://193.29.139.212:8080": {
       "first_seen_at": "2026-09-09T04:22:20.003172+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.682302+00:00",
-      "consecutive_passes": 9,
-      "total_checks": 15,
-      "total_passes": 14,
-      "avg_latency_ms": 401.8,
-      "last_pass_at": "2026-10-28T05:18:04.682302+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227549+00:00",
+      "consecutive_passes": 10,
+      "total_checks": 16,
+      "total_passes": 15,
+      "avg_latency_ms": 458.5,
+      "last_pass_at": "2026-11-02T05:41:42.227549+00:00"
     },
     "hysteria2://giftcard.gateway-stream.com:52062": {
       "first_seen_at": "2026-09-09T04:22:20.003260+00:00",
@@ -438,9 +430,9 @@
     },
     "vmess://38.110.1.246:18000": {
       "first_seen_at": "2026-09-10T04:19:49.531940+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257001+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227109+00:00",
       "consecutive_passes": 0,
-      "total_checks": 16,
+      "total_checks": 17,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -454,9 +446,9 @@
     },
     "hysteria2://206.71.158.37:35000": {
       "first_seen_at": "2026-09-10T04:19:49.532289+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256500+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226961+00:00",
       "consecutive_passes": 0,
-      "total_checks": 28,
+      "total_checks": 29,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -479,9 +471,9 @@
     },
     "hysteria2://31.76.80.69:443": {
       "first_seen_at": "2026-09-10T04:19:49.532405+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256344+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226902+00:00",
       "consecutive_passes": 0,
-      "total_checks": 46,
+      "total_checks": 47,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -505,9 +497,9 @@
     },
     "vmess://v6.hdacd.com:30806": {
       "first_seen_at": "2026-09-10T04:19:49.532756+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257131+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227513+00:00",
       "consecutive_passes": 0,
-      "total_checks": 24,
+      "total_checks": 25,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -531,12 +523,12 @@
     },
     "shadowsocks://156.146.38.169:443": {
       "first_seen_at": "2026-09-11T04:19:27.749249+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257057+00:00",
-      "consecutive_passes": 14,
-      "total_checks": 14,
-      "total_passes": 14,
-      "avg_latency_ms": 153.1,
-      "last_pass_at": "2026-11-01T05:43:13.257057+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227535+00:00",
+      "consecutive_passes": 15,
+      "total_checks": 15,
+      "total_passes": 15,
+      "avg_latency_ms": 122.9,
+      "last_pass_at": "2026-11-02T05:41:42.227535+00:00"
     },
     "shadowsocks://63.180.254.10:443": {
       "first_seen_at": "2026-09-11T04:19:27.749637+00:00",
@@ -565,9 +557,9 @@
     },
     "hysteria2://giftcard.gateway-stream.com:52087": {
       "first_seen_at": "2026-09-12T04:18:01.591734+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256322+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226974+00:00",
       "consecutive_passes": 0,
-      "total_checks": 45,
+      "total_checks": 46,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -587,19 +579,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "trojan://104.16.174.12:443": {
-      "first_seen_at": "2026-09-12T04:18:01.592415+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510055+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 16,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vmess://i2psm3knof5qjjix.v.3dns.vip:443": {
       "first_seen_at": "2026-09-14T04:36:54.748994+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256466+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227506+00:00",
       "consecutive_passes": 0,
-      "total_checks": 17,
+      "total_checks": 18,
       "total_passes": 2,
       "avg_latency_ms": 852.4,
       "last_pass_at": "2026-10-18T04:12:00.911616+00:00"
@@ -633,9 +617,9 @@
     },
     "vless://199.232.78.170:443": {
       "first_seen_at": "2026-09-16T04:32:53.915204+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493684+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227354+00:00",
       "consecutive_passes": 0,
-      "total_checks": 21,
+      "total_checks": 22,
       "total_passes": 1,
       "avg_latency_ms": 419.1,
       "last_pass_at": "2026-09-20T04:39:01.404225+00:00"
@@ -780,12 +764,12 @@
     },
     "shadowsocks://51.222.136.236:8882": {
       "first_seen_at": "2026-09-21T04:37:19.933619+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493891+00:00",
-      "consecutive_passes": 9,
-      "total_checks": 16,
-      "total_passes": 10,
-      "avg_latency_ms": 680.4,
-      "last_pass_at": "2026-10-31T05:14:18.493891+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227581+00:00",
+      "consecutive_passes": 10,
+      "total_checks": 17,
+      "total_passes": 11,
+      "avg_latency_ms": 433.9,
+      "last_pass_at": "2026-11-02T05:41:42.227581+00:00"
     },
     "vless://104.21.8.201:2096": {
       "first_seen_at": "2026-09-22T04:33:32.675249+00:00",
@@ -814,12 +798,12 @@
     },
     "vless://169.40.42.224:443": {
       "first_seen_at": "2026-09-22T04:33:32.675744+00:00",
-      "last_seen_at": "2026-10-24T04:18:11.365847+00:00",
-      "consecutive_passes": 4,
-      "total_checks": 9,
-      "total_passes": 8,
-      "avg_latency_ms": 434.7,
-      "last_pass_at": "2026-10-24T04:18:11.365847+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227183+00:00",
+      "consecutive_passes": 5,
+      "total_checks": 10,
+      "total_passes": 9,
+      "avg_latency_ms": 350.7,
+      "last_pass_at": "2026-11-02T05:41:42.227183+00:00"
     },
     "shadowsocks://102.133.165.160:16233": {
       "first_seen_at": "2026-09-23T04:29:48.160917+00:00",
@@ -849,12 +833,12 @@
     },
     "vless://51.158.206.96:23576": {
       "first_seen_at": "2026-09-23T04:29:48.161010+00:00",
-      "last_seen_at": "2026-10-23T04:27:47.674464+00:00",
-      "consecutive_passes": 5,
-      "total_checks": 5,
-      "total_passes": 5,
-      "avg_latency_ms": 440.2,
-      "last_pass_at": "2026-10-23T04:27:47.674464+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227342+00:00",
+      "consecutive_passes": 6,
+      "total_checks": 6,
+      "total_passes": 6,
+      "avg_latency_ms": 472.2,
+      "last_pass_at": "2026-11-02T05:41:42.227342+00:00"
     },
     "vless://169.40.42.168:443": {
       "first_seen_at": "2026-09-23T04:29:48.161066+00:00",
@@ -865,19 +849,11 @@
       "avg_latency_ms": 221.5,
       "last_pass_at": "2026-10-21T04:24:17.728082+00:00"
     },
-    "vmess://89.41.172.85:22324": {
-      "first_seen_at": "2026-09-23T04:29:48.161408+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510093+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 7,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vmess://guanwang.awsno.com:443": {
       "first_seen_at": "2026-09-23T04:29:48.161465+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257150+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227539+00:00",
       "consecutive_passes": 0,
-      "total_checks": 36,
+      "total_checks": 37,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1023,12 +999,12 @@
     },
     "shadowsocks://193.29.139.197:8080": {
       "first_seen_at": "2026-09-25T04:38:27.349138+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256621+00:00",
-      "consecutive_passes": 3,
-      "total_checks": 22,
-      "total_passes": 19,
-      "avg_latency_ms": 370.7,
-      "last_pass_at": "2026-11-01T05:43:13.256621+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227516+00:00",
+      "consecutive_passes": 4,
+      "total_checks": 23,
+      "total_passes": 20,
+      "avg_latency_ms": 393.9,
+      "last_pass_at": "2026-11-02T05:41:42.227516+00:00"
     },
     "shadowsocks://82.38.31.174:443": {
       "first_seen_at": "2026-09-26T04:41:17.984999+00:00",
@@ -1059,9 +1035,9 @@
     },
     "shadowsocks://94.156.250.148:7001": {
       "first_seen_at": "2026-09-26T04:41:17.985165+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257219+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 10,
+      "last_seen_at": "2026-11-02T05:41:42.227591+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 11,
       "total_passes": 2,
       "avg_latency_ms": 578.0,
       "last_pass_at": "2026-11-01T05:43:13.257219+00:00"
@@ -1183,9 +1159,9 @@
     },
     "vless://cf.090227.xyz:443": {
       "first_seen_at": "2026-09-27T05:02:29.396103+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256753+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227149+00:00",
       "consecutive_passes": 0,
-      "total_checks": 17,
+      "total_checks": 18,
       "total_passes": 2,
       "avg_latency_ms": 423.2,
       "last_pass_at": "2026-10-14T04:36:18.668834+00:00"
@@ -1201,9 +1177,9 @@
     },
     "shadowsocks://51.79.64.198:8119": {
       "first_seen_at": "2026-09-28T05:04:05.874867+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257204+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227601+00:00",
       "consecutive_passes": 0,
-      "total_checks": 18,
+      "total_checks": 19,
       "total_passes": 4,
       "avg_latency_ms": 563.2,
       "last_pass_at": "2026-10-17T04:04:22.887043+00:00"
@@ -1219,12 +1195,12 @@
     },
     "shadowsocks://51.222.200.165:5000": {
       "first_seen_at": "2026-09-28T05:04:05.875072+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557591+00:00",
-      "consecutive_passes": 2,
-      "total_checks": 9,
-      "total_passes": 5,
-      "avg_latency_ms": 317.1,
-      "last_pass_at": "2026-10-30T05:28:41.557591+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227649+00:00",
+      "consecutive_passes": 3,
+      "total_checks": 10,
+      "total_passes": 6,
+      "avg_latency_ms": 470.5,
+      "last_pass_at": "2026-11-02T05:41:42.227649+00:00"
     },
     "vless://5.253.30.99:40443": {
       "first_seen_at": "2026-09-29T05:28:47.488047+00:00",
@@ -1253,17 +1229,17 @@
     },
     "vmess://kqov7ukadknxb8a3.v.3dns.vip:443": {
       "first_seen_at": "2026-09-29T05:28:47.488614+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257148+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227546+00:00",
       "consecutive_passes": 0,
-      "total_checks": 16,
+      "total_checks": 17,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vmess://z9ffbx3zs2q5o0bg.v.3dns.vip:443": {
       "first_seen_at": "2026-09-29T05:28:47.488624+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257145+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227519+00:00",
       "consecutive_passes": 0,
-      "total_checks": 20,
+      "total_checks": 21,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1309,9 +1285,9 @@
     },
     "vmess://azw0eunyvdvre73k.v.3dns.vip:443": {
       "first_seen_at": "2026-09-29T05:28:47.488653+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257134+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227552+00:00",
       "consecutive_passes": 0,
-      "total_checks": 16,
+      "total_checks": 17,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1385,9 +1361,9 @@
     },
     "trojan://185.220.100.168:443": {
       "first_seen_at": "2026-09-30T05:16:57.674480+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493806+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227410+00:00",
       "consecutive_passes": 0,
-      "total_checks": 18,
+      "total_checks": 19,
       "total_passes": 1,
       "avg_latency_ms": 863.0,
       "last_pass_at": "2026-09-30T05:16:57.674480+00:00"
@@ -1402,17 +1378,9 @@
     },
     "vmess://8ntzyr5knivfabat.v.3dns.vip:443": {
       "first_seen_at": "2026-09-30T05:16:57.674573+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557506+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227532+00:00",
       "consecutive_passes": 0,
-      "total_checks": 12,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://speedtest.net:80": {
-      "first_seen_at": "2026-10-01T05:31:28.951675+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509861+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 13,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1468,18 +1436,18 @@
     },
     "trojan://165.215.250.14:443": {
       "first_seen_at": "2026-10-01T05:31:28.952257+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557497+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227404+00:00",
       "consecutive_passes": 0,
-      "total_checks": 18,
+      "total_checks": 19,
       "total_passes": 1,
       "avg_latency_ms": 473.7,
       "last_pass_at": "2026-10-02T05:18:57.603470+00:00"
     },
     "trojan://45.87.41.18:443": {
       "first_seen_at": "2026-10-01T05:31:28.952260+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493841+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227368+00:00",
       "consecutive_passes": 0,
-      "total_checks": 14,
+      "total_checks": 15,
       "total_passes": 1,
       "avg_latency_ms": 558.0,
       "last_pass_at": "2026-10-21T04:24:17.728609+00:00"
@@ -1495,9 +1463,9 @@
     },
     "shadowsocks://51.222.141.125:445": {
       "first_seen_at": "2026-10-01T05:31:28.952344+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557597+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 10,
+      "last_seen_at": "2026-11-02T05:41:42.227596+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 11,
       "total_passes": 3,
       "avg_latency_ms": 367.8,
       "last_pass_at": "2026-10-30T05:28:41.557597+00:00"
@@ -1610,19 +1578,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "shadowsocks://p2tun3.greewebservices.ir:1030": {
-      "first_seen_at": "2026-10-02T05:18:57.603503+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510119+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://xsru1.ddnsfree.com:443": {
       "first_seen_at": "2026-10-02T05:18:57.603509+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256707+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227221+00:00",
       "consecutive_passes": 0,
-      "total_checks": 14,
+      "total_checks": 15,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1720,9 +1680,9 @@
     },
     "vless://89.125.139.115:443": {
       "first_seen_at": "2026-10-04T05:33:56.225436+00:00",
-      "last_seen_at": "2026-10-23T04:27:47.674368+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227248+00:00",
       "consecutive_passes": 0,
-      "total_checks": 9,
+      "total_checks": 10,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1736,9 +1696,9 @@
     },
     "trojan://185.255.179.166:443": {
       "first_seen_at": "2026-10-04T05:33:56.225714+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493848+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227434+00:00",
       "consecutive_passes": 0,
-      "total_checks": 13,
+      "total_checks": 14,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1830,9 +1790,9 @@
     },
     "vless://43.174.193.1:443": {
       "first_seen_at": "2026-10-05T05:17:43.939952+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256459+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227139+00:00",
       "consecutive_passes": 0,
-      "total_checks": 6,
+      "total_checks": 7,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -1917,24 +1877,16 @@
     },
     "trojan://212.183.88.136:443": {
       "first_seen_at": "2026-10-05T05:17:43.940332+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.591287+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 7,
+      "last_seen_at": "2026-11-02T05:41:42.227407+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 8,
       "total_passes": 2,
       "avg_latency_ms": 414.0,
       "last_pass_at": "2026-10-29T05:28:57.591287+00:00"
     },
     "trojan://212.227.144.37:8443": {
       "first_seen_at": "2026-10-05T05:17:43.940351+00:00",
-      "last_seen_at": "2026-10-22T04:23:07.920135+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 6,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vmess://39.108.113.127:10086": {
-      "first_seen_at": "2026-10-05T05:17:43.940356+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510220+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227333+00:00",
       "consecutive_passes": 0,
       "total_checks": 7,
       "total_passes": 0,
@@ -1942,20 +1894,12 @@
     },
     "shadowsocks://158.173.24.73:443": {
       "first_seen_at": "2026-10-05T05:17:43.940442+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.682254+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227599+00:00",
       "consecutive_passes": 0,
-      "total_checks": 13,
+      "total_checks": 14,
       "total_passes": 4,
       "avg_latency_ms": 346.6,
       "last_pass_at": "2026-10-20T04:32:07.322147+00:00"
-    },
-    "vless://discord.gg:80": {
-      "first_seen_at": "2026-10-06T06:02:01.877262+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509812+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
     },
     "hysteria2://155.94.134.183:11592": {
       "first_seen_at": "2026-10-06T06:02:01.877333+00:00",
@@ -1964,15 +1908,6 @@
       "total_checks": 18,
       "total_passes": 0,
       "avg_latency_ms": 0.0
-    },
-    "hysteria2://nl-hy-test.tcp-reset-club.net:443": {
-      "first_seen_at": "2026-10-06T06:02:01.877353+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509801+00:00",
-      "consecutive_passes": 2,
-      "total_checks": 2,
-      "total_passes": 2,
-      "avg_latency_ms": 745.0,
-      "last_pass_at": "2026-10-19T04:21:14.509801+00:00"
     },
     "hysteria2://208.69.78.217:443": {
       "first_seen_at": "2026-10-06T06:02:01.877539+00:00",
@@ -2018,9 +1953,9 @@
     },
     "vless://199.232.239.239:443": {
       "first_seen_at": "2026-10-06T06:02:01.877852+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256477+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227251+00:00",
       "consecutive_passes": 0,
-      "total_checks": 16,
+      "total_checks": 17,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2125,39 +2060,13 @@
       "avg_latency_ms": 815.6,
       "last_pass_at": "2026-10-21T04:24:17.728039+00:00"
     },
-    "vless://103.172.197.3:16006": {
-      "first_seen_at": "2026-10-07T05:37:09.059806+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509863+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 2,
-      "avg_latency_ms": 835.4,
-      "last_pass_at": "2026-10-16T04:14:16.253539+00:00"
-    },
     "trojan://47.250.84.25:443": {
       "first_seen_at": "2026-10-07T05:37:09.059919+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493839+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227482+00:00",
       "consecutive_passes": 0,
-      "total_checks": 13,
+      "total_checks": 14,
       "total_passes": 0,
       "avg_latency_ms": 0.0
-    },
-    "vmess://185.212.149.7:2053": {
-      "first_seen_at": "2026-10-07T05:37:09.060044+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510097+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "shadowsocks://90.156.203.62:5112": {
-      "first_seen_at": "2026-10-07T05:37:09.060085+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510266+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 5,
-      "total_passes": 1,
-      "avg_latency_ms": 427.7,
-      "last_pass_at": "2026-10-19T04:21:14.510266+00:00"
     },
     "shadowsocks://149.102.132.184:80": {
       "first_seen_at": "2026-10-08T05:45:32.118276+00:00",
@@ -2222,9 +2131,9 @@
     },
     "vless://37.221.210.113:8443": {
       "first_seen_at": "2026-10-08T05:45:32.118835+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.591135+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227203+00:00",
       "consecutive_passes": 0,
-      "total_checks": 9,
+      "total_checks": 10,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2246,17 +2155,17 @@
     },
     "vless://205.237.110.254:443": {
       "first_seen_at": "2026-10-08T05:45:32.119000+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256580+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226989+00:00",
       "consecutive_passes": 0,
-      "total_checks": 25,
+      "total_checks": 26,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vless://194.55.166.65:2087": {
       "first_seen_at": "2026-10-08T05:45:32.119028+00:00",
-      "last_seen_at": "2026-10-24T04:18:11.365864+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227005+00:00",
       "consecutive_passes": 0,
-      "total_checks": 9,
+      "total_checks": 10,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2313,17 +2222,9 @@
     },
     "vless://146.75.57.238:443": {
       "first_seen_at": "2026-10-09T05:49:56.079679+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256544+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227078+00:00",
       "consecutive_passes": 0,
-      "total_checks": 12,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vmess://2b9hwy8ocx7q74nm.v.3dns.vip:443": {
-      "first_seen_at": "2026-10-09T05:49:56.079682+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509667+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
+      "total_checks": 13,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2344,30 +2245,14 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://www.comoiran.ir:443": {
-      "first_seen_at": "2026-10-09T05:49:56.079843+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510000+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://177.1.192.72:443": {
       "first_seen_at": "2026-10-09T05:49:56.079856+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493646+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227324+00:00",
       "consecutive_passes": 0,
-      "total_checks": 9,
+      "total_checks": 10,
       "total_passes": 6,
       "avg_latency_ms": 551.8,
       "last_pass_at": "2026-10-19T04:21:14.510040+00:00"
-    },
-    "vless://itunes.navard.net:80": {
-      "first_seen_at": "2026-10-09T05:49:56.080003+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509786+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
     },
     "vless://104.18.35.86:8080": {
       "first_seen_at": "2026-10-09T05:49:56.080024+00:00",
@@ -2405,9 +2290,9 @@
     },
     "vless://tg1.cdnphotos.org:443": {
       "first_seen_at": "2026-10-09T05:49:56.080112+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557281+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227291+00:00",
       "consecutive_passes": 0,
-      "total_checks": 9,
+      "total_checks": 10,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2429,17 +2314,17 @@
     },
     "trojan://139.180.146.200:8886": {
       "first_seen_at": "2026-10-09T05:49:56.080277+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257111+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227429+00:00",
       "consecutive_passes": 0,
-      "total_checks": 12,
+      "total_checks": 13,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vmess://47.244.120.197:44867": {
       "first_seen_at": "2026-10-09T05:49:56.080341+00:00",
-      "last_seen_at": "2026-10-23T04:27:47.673944+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227500+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2502,15 +2387,6 @@
       "total_passes": 3,
       "avg_latency_ms": 873.3,
       "last_pass_at": "2026-10-30T05:28:41.556917+00:00"
-    },
-    "hysteria2://137.23.2.56:20000": {
-      "first_seen_at": "2026-10-10T05:32:30.515884+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509841+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 5,
-      "total_passes": 2,
-      "avg_latency_ms": 946.6,
-      "last_pass_at": "2026-10-18T04:12:00.911543+00:00"
     },
     "shadowsocks://185.135.86.175:9086": {
       "first_seen_at": "2026-10-10T05:32:30.515900+00:00",
@@ -2589,9 +2465,9 @@
     },
     "vless://146.75.59.186:443": {
       "first_seen_at": "2026-10-10T05:32:30.516109+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256392+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227147+00:00",
       "consecutive_passes": 0,
-      "total_checks": 17,
+      "total_checks": 18,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2610,15 +2486,6 @@
       "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
-    },
-    "vless://pl.flen-vpn.xyz:8443": {
-      "first_seen_at": "2026-10-10T05:32:30.516169+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509908+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 1,
-      "avg_latency_ms": 855.0,
-      "last_pass_at": "2026-10-11T05:28:18.108726+00:00"
     },
     "vless://118.26.59.85:443": {
       "first_seen_at": "2026-10-10T05:32:30.516183+00:00",
@@ -2646,9 +2513,9 @@
     },
     "vmess://120.48.133.162:10086": {
       "first_seen_at": "2026-10-10T05:32:30.516527+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257153+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227555+00:00",
       "consecutive_passes": 0,
-      "total_checks": 14,
+      "total_checks": 15,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -2714,12 +2581,12 @@
     },
     "vless://188.164.248.216:443": {
       "first_seen_at": "2026-10-11T05:28:18.108763+00:00",
-      "last_seen_at": "2026-10-27T04:44:13.911832+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 3,
-      "total_passes": 1,
-      "avg_latency_ms": 100.5,
-      "last_pass_at": "2026-10-27T04:44:13.911832+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227124+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 4,
+      "total_passes": 2,
+      "avg_latency_ms": 131.5,
+      "last_pass_at": "2026-11-02T05:41:42.227124+00:00"
     },
     "vless://139.162.27.96:2096": {
       "first_seen_at": "2026-10-11T05:28:18.108770+00:00",
@@ -2821,9 +2688,9 @@
     },
     "hysteria2://nas.aizhzo.com:5010": {
       "first_seen_at": "2026-10-12T05:38:56.628773+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256443+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226876+00:00",
       "consecutive_passes": 0,
-      "total_checks": 12,
+      "total_checks": 13,
       "total_passes": 2,
       "avg_latency_ms": 829.1,
       "last_pass_at": "2026-10-25T04:21:34.409516+00:00"
@@ -2838,20 +2705,12 @@
     },
     "vless://104.21.91.244:443": {
       "first_seen_at": "2026-10-12T05:38:56.629094+00:00",
-      "last_seen_at": "2026-10-26T04:25:06.658128+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227234+00:00",
       "consecutive_passes": 0,
-      "total_checks": 10,
+      "total_checks": 11,
       "total_passes": 1,
       "avg_latency_ms": 248.3,
       "last_pass_at": "2026-10-20T04:32:07.321730+00:00"
-    },
-    "vless://104.24.66.98:80": {
-      "first_seen_at": "2026-10-12T05:38:56.629104+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509769+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
     },
     "vless://31.57.190.17:443": {
       "first_seen_at": "2026-10-12T05:38:56.629159+00:00",
@@ -2894,15 +2753,6 @@
       "total_passes": 2,
       "avg_latency_ms": 185.9,
       "last_pass_at": "2026-10-31T05:14:18.493356+00:00"
-    },
-    "vless://z5n1.vpnpolar.online:443": {
-      "first_seen_at": "2026-10-12T05:38:56.629337+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510137+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 5,
-      "total_passes": 1,
-      "avg_latency_ms": 692.2,
-      "last_pass_at": "2026-10-12T05:38:56.629337+00:00"
     },
     "vless://dl6.sepid-dl.ir:80": {
       "first_seen_at": "2026-10-12T05:38:56.629347+00:00",
@@ -2951,15 +2801,6 @@
       "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
-    },
-    "vless://104.21.70.22:443": {
-      "first_seen_at": "2026-10-12T05:38:56.629479+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510131+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 6,
-      "total_passes": 1,
-      "avg_latency_ms": 409.3,
-      "last_pass_at": "2026-10-15T04:18:50.311217+00:00"
     },
     "vless://103.180.20.108:8443": {
       "first_seen_at": "2026-10-12T05:38:56.629528+00:00",
@@ -3062,9 +2903,9 @@
     },
     "trojan://104.18.9.83:443": {
       "first_seen_at": "2026-10-13T06:34:58.237975+00:00",
-      "last_seen_at": "2026-10-26T04:25:06.658199+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227420+00:00",
       "consecutive_passes": 0,
-      "total_checks": 3,
+      "total_checks": 4,
       "total_passes": 1,
       "avg_latency_ms": 725.9,
       "last_pass_at": "2026-10-13T06:34:58.237975+00:00"
@@ -3088,9 +2929,9 @@
     },
     "shadowsocks://194.68.44.42:64546": {
       "first_seen_at": "2026-10-13T06:34:58.238252+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257223+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227579+00:00",
       "consecutive_passes": 0,
-      "total_checks": 7,
+      "total_checks": 8,
       "total_passes": 1,
       "avg_latency_ms": 983.2,
       "last_pass_at": "2026-10-13T06:34:58.238252+00:00"
@@ -3103,15 +2944,6 @@
       "total_passes": 2,
       "avg_latency_ms": 590.4,
       "last_pass_at": "2026-10-24T04:18:11.365416+00:00"
-    },
-    "vless://fert6.localip.ir:2087": {
-      "first_seen_at": "2026-10-14T04:36:18.668541+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509740+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 4,
-      "total_passes": 2,
-      "avg_latency_ms": 729.3,
-      "last_pass_at": "2026-10-19T04:21:14.509740+00:00"
     },
     "shadowsocks://82.38.31.16:8080": {
       "first_seen_at": "2026-10-14T04:36:18.668646+00:00",
@@ -3293,14 +3125,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "shadowsocks://185.239.141.248:8388": {
-      "first_seen_at": "2026-10-14T04:36:18.669559+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510245+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://152.228.162.19:80": {
       "first_seen_at": "2026-10-15T04:18:50.311043+00:00",
       "last_seen_at": "2026-10-21T04:24:17.727951+00:00",
@@ -3353,9 +3177,9 @@
     },
     "vless://5.178.109.174:14430": {
       "first_seen_at": "2026-10-15T04:18:50.311333+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256879+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227272+00:00",
       "consecutive_passes": 0,
-      "total_checks": 6,
+      "total_checks": 7,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -3396,9 +3220,9 @@
     },
     "vless://95.174.68.188:14430": {
       "first_seen_at": "2026-10-15T04:18:50.311399+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493717+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227085+00:00",
       "consecutive_passes": 0,
-      "total_checks": 7,
+      "total_checks": 8,
       "total_passes": 1,
       "avg_latency_ms": 878.6,
       "last_pass_at": "2026-10-15T04:18:50.311399+00:00"
@@ -3417,14 +3241,6 @@
       "last_seen_at": "2026-10-31T05:14:18.493672+00:00",
       "consecutive_passes": 0,
       "total_checks": 5,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://coniiro.appleseraj.ir:2052": {
-      "first_seen_at": "2026-10-15T04:18:50.311484+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509887+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -3457,14 +3273,6 @@
       "last_seen_at": "2026-10-22T04:23:07.920125+00:00",
       "consecutive_passes": 0,
       "total_checks": 4,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "trojan://46.62.204.134:443": {
-      "first_seen_at": "2026-10-15T04:18:50.311662+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510189+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -3524,14 +3332,6 @@
     "hysteria2://51.15.16.68:443": {
       "first_seen_at": "2026-10-16T04:14:16.253384+00:00",
       "last_seen_at": "2026-10-29T05:28:57.590590+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://199.232.78.199:443": {
-      "first_seen_at": "2026-10-16T04:14:16.253404+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509878+00:00",
       "consecutive_passes": 0,
       "total_checks": 3,
       "total_passes": 0,
@@ -3692,14 +3492,6 @@
       "avg_latency_ms": 942.5,
       "last_pass_at": "2026-10-16T04:14:16.253824+00:00"
     },
-    "vless://140.225.199.225:443": {
-      "first_seen_at": "2026-10-16T04:14:16.253831+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509646+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://104.19.141.3:443": {
       "first_seen_at": "2026-10-16T04:14:16.253848+00:00",
       "last_seen_at": "2026-11-01T05:43:13.256899+00:00",
@@ -3748,14 +3540,6 @@
       "total_passes": 1,
       "avg_latency_ms": 561.8,
       "last_pass_at": "2026-10-16T04:14:16.253898+00:00"
-    },
-    "trojan://151.101.38.6:443": {
-      "first_seen_at": "2026-10-16T04:14:16.253904+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510060+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
     },
     "vless://de2.balancer.vbuste-bot.com:443": {
       "first_seen_at": "2026-10-16T04:14:16.253914+00:00",
@@ -3840,14 +3624,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://www.csgo.net:2095": {
-      "first_seen_at": "2026-10-17T04:04:22.886767+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510156+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://45.91.248.127:8443": {
       "first_seen_at": "2026-10-17T04:04:22.886769+00:00",
       "last_seen_at": "2026-10-25T04:21:34.409742+00:00",
@@ -3889,14 +3665,6 @@
       "avg_latency_ms": 710.5,
       "last_pass_at": "2026-11-01T05:43:13.256596+00:00"
     },
-    "shadowsocks://ruot.ayucloudservices.nl:40018": {
-      "first_seen_at": "2026-10-17T04:04:22.887025+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510236+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "shadowsocks://b2a2.velqixa.ir:39221": {
       "first_seen_at": "2026-10-17T04:04:22.887058+00:00",
       "last_seen_at": "2026-10-20T04:32:07.322119+00:00",
@@ -3931,33 +3699,17 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "hysteria2://152.67.115.203:443": {
-      "first_seen_at": "2026-10-18T04:12:00.911623+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509835+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://edge.bookmai.com:443": {
       "first_seen_at": "2026-10-18T04:12:00.911653+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493624+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227047+00:00",
       "consecutive_passes": 0,
-      "total_checks": 6,
+      "total_checks": 7,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vless://167.233.59.162:443": {
       "first_seen_at": "2026-10-18T04:12:00.911669+00:00",
       "last_seen_at": "2026-10-31T05:14:18.493378+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://rs5.univesalsrv.com:443": {
-      "first_seen_at": "2026-10-18T04:12:00.911680+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509964+00:00",
       "consecutive_passes": 0,
       "total_checks": 2,
       "total_passes": 0,
@@ -3971,15 +3723,6 @@
       "total_passes": 1,
       "avg_latency_ms": 670.5,
       "last_pass_at": "2026-10-18T04:12:00.911690+00:00"
-    },
-    "hysteria2://189.74.114.2:54183": {
-      "first_seen_at": "2026-10-18T04:12:00.911706+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509846+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 1,
-      "avg_latency_ms": 598.6,
-      "last_pass_at": "2026-10-18T04:12:00.911706+00:00"
     },
     "vless://31.57.190.50:443": {
       "first_seen_at": "2026-10-18T04:12:00.911710+00:00",
@@ -4023,14 +3766,6 @@
       "avg_latency_ms": 580.1,
       "last_pass_at": "2026-10-20T04:32:07.321550+00:00"
     },
-    "vless://130.78.190.134:443": {
-      "first_seen_at": "2026-10-18T04:12:00.911848+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510161+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://172.67.130.159:2096": {
       "first_seen_at": "2026-10-18T04:12:00.911862+00:00",
       "last_seen_at": "2026-10-29T05:28:57.590895+00:00",
@@ -4057,9 +3792,9 @@
     },
     "vless://95.128.71.79:14430": {
       "first_seen_at": "2026-10-18T04:12:00.911926+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.682286+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227019+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4129,50 +3864,18 @@
     },
     "shadowsocks://154.36.158.197:8388": {
       "first_seen_at": "2026-10-18T04:12:00.912158+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257230+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227594+00:00",
       "consecutive_passes": 0,
-      "total_checks": 11,
+      "total_checks": 12,
       "total_passes": 1,
       "avg_latency_ms": 722.6,
       "last_pass_at": "2026-10-22T04:23:07.920195+00:00"
-    },
-    "hysteria2://72.56.92.120:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509591+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509591+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://node-nd01.rkitman.ru:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509629+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509629+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
     },
     "vmess://node8.liudonghoe.com:443": {
       "first_seen_at": "2026-10-19T04:21:14.509633+00:00",
       "last_seen_at": "2026-10-28T05:18:04.682426+00:00",
       "consecutive_passes": 0,
       "total_checks": 4,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://bg3.univesalsrv.com:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509663+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509663+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://95.181.170.27:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.509677+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509677+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4200,31 +3903,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vmess://de-d21e56c13c.shamanapp.online:33744": {
-      "first_seen_at": "2026-10-19T04:21:14.509714+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509714+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 574.6,
-      "last_pass_at": "2026-10-19T04:21:14.509714+00:00"
-    },
-    "hysteria2://hy2.aspidnet.xyz:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509729+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509729+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://mg1.zhujue.us:11000": {
-      "first_seen_at": "2026-10-19T04:21:14.509731+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509731+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://multipanel-production-f449.up.railway.app:443": {
       "first_seen_at": "2026-10-19T04:21:14.509760+00:00",
       "last_seen_at": "2026-10-20T04:32:07.321912+00:00",
@@ -4233,51 +3911,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "hysteria2://173.212.201.85:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509766+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509766+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://91.215.42.63:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509795+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509795+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://93.152.215.176:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.509804+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509804+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "hysteria2://me17.msjia8844.site:7443": {
       "first_seen_at": "2026-10-19T04:21:14.509814+00:00",
       "last_seen_at": "2026-10-20T04:32:07.321346+00:00",
       "consecutive_passes": 0,
       "total_checks": 2,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "hysteria2://147.15.108.14:20000": {
-      "first_seen_at": "2026-10-19T04:21:14.509820+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509820+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://104.24.87.230:80": {
-      "first_seen_at": "2026-10-19T04:21:14.509822+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509822+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4290,38 +3928,6 @@
       "avg_latency_ms": 551.6,
       "last_pass_at": "2026-10-21T04:24:17.728051+00:00"
     },
-    "hysteria2://104.165.205.42:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.509830+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509830+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://138.124.251.146:23202": {
-      "first_seen_at": "2026-10-19T04:21:14.509833+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509833+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://pitercdn1.surverssss.pro:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.509838+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509838+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://s3.shardtech.pro:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509843+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509843+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://178.172.227.124:14430": {
       "first_seen_at": "2026-10-19T04:21:14.509852+00:00",
       "last_seen_at": "2026-10-31T05:14:18.493609+00:00",
@@ -4331,99 +3937,11 @@
       "avg_latency_ms": 637.2,
       "last_pass_at": "2026-10-23T04:27:47.674024+00:00"
     },
-    "vless://studio.10media.top:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509858+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509858+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://124.156.173.124:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509869+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509869+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://129.212.232.171:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509875+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509875+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://82.108.206.139:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.509880+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509880+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://victoryprovpn-production-99ce.up.railway.app:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509883+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509883+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://172.64.150.43:443": {
       "first_seen_at": "2026-10-19T04:21:14.509885+00:00",
       "last_seen_at": "2026-10-31T05:14:18.493637+00:00",
       "consecutive_passes": 0,
       "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://45.76.208.253:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509895+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509895+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://sub.skyshopnet.ir:2086": {
-      "first_seen_at": "2026-10-19T04:21:14.509897+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509897+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://185.18.250.127:2096": {
-      "first_seen_at": "2026-10-19T04:21:14.509902+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509902+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://161.118.219.229:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509905+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509905+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://94.228.175.199:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509910+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509910+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://187.52.127.204:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.509918+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509918+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4459,14 +3977,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://multipanel-production-02a0.up.railway.app:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509949+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509949+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://cf.130519.xyz:443": {
       "first_seen_at": "2026-10-19T04:21:14.509951+00:00",
       "last_seen_at": "2026-10-23T04:27:47.674320+00:00",
@@ -4483,30 +3993,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://2e9c6de06bd9.salzivo.ir:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509969+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509969+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://ru.msk.nurcloud.org:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509971+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509971+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://157.245.50.181:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509976+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509976+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://deara.moon-night.ir:443": {
       "first_seen_at": "2026-10-19T04:21:14.509979+00:00",
       "last_seen_at": "2026-10-21T04:24:17.727988+00:00",
@@ -4515,44 +4001,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://72.56.241.230:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509985+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509985+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://grimness-backlogs.cdn-content.com:443": {
       "first_seen_at": "2026-10-19T04:21:14.509992+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509992+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227045+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://157.230.101.36:443": {
-      "first_seen_at": "2026-10-19T04:21:14.509994+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.509994+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 507.7,
-      "last_pass_at": "2026-10-19T04:21:14.509994+00:00"
-    },
-    "vless://104.19.45.195:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510003+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510003+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://64.188.66.181:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510009+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510009+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4561,14 +4014,6 @@
       "last_seen_at": "2026-10-22T04:23:07.919991+00:00",
       "consecutive_passes": 0,
       "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://204.168.173.148:2053": {
-      "first_seen_at": "2026-10-19T04:21:14.510014+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510014+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4588,59 +4033,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://57.129.130.57:52014": {
-      "first_seen_at": "2026-10-19T04:21:14.510023+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510023+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://87.242.117.59:443": {
       "first_seen_at": "2026-10-19T04:21:14.510027+00:00",
       "last_seen_at": "2026-10-21T04:24:17.728628+00:00",
       "consecutive_passes": 0,
       "total_checks": 3,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://185.146.173.206:2095": {
-      "first_seen_at": "2026-10-19T04:21:14.510030+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510030+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://76.13.188.13:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.510033+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510033+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://78.135.73.49:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510035+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510035+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://vless-colo.whuiy.xyz:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510043+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510043+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://46.182.24.240:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510045+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510045+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4652,15 +4049,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://site.teslamotor.site:20001": {
-      "first_seen_at": "2026-10-19T04:21:14.510063+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510063+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 629.0,
-      "last_pass_at": "2026-10-19T04:21:14.510063+00:00"
-    },
     "trojan://104.21.57.25:443": {
       "first_seen_at": "2026-10-19T04:21:14.510071+00:00",
       "last_seen_at": "2026-10-20T04:32:07.321928+00:00",
@@ -4670,14 +4058,6 @@
       "avg_latency_ms": 839.6,
       "last_pass_at": "2026-10-20T04:32:07.321928+00:00"
     },
-    "vless://103.161.178.72:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510074+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510074+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://216.173.67.59:443": {
       "first_seen_at": "2026-10-19T04:21:14.510079+00:00",
       "last_seen_at": "2026-10-25T04:21:34.409598+00:00",
@@ -4685,15 +4065,6 @@
       "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
-    },
-    "vless://milo.networkforexir.site:8080": {
-      "first_seen_at": "2026-10-19T04:21:14.510084+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510084+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 860.2,
-      "last_pass_at": "2026-10-19T04:21:14.510084+00:00"
     },
     "vless://213.111.177.107:443": {
       "first_seen_at": "2026-10-19T04:21:14.510100+00:00",
@@ -4703,35 +4074,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vmess://aksai.org:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510102+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510102+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://154.21.203.106:51279": {
       "first_seen_at": "2026-10-19T04:21:14.510105+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256802+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227277+00:00",
       "consecutive_passes": 0,
-      "total_checks": 6,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://103.161.178.205:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510121+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510121+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "shadowsocks://20.164.211.25:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510124+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510124+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 7,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4743,14 +4090,6 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "shadowsocks://with.monqela.ir:26253": {
-      "first_seen_at": "2026-10-19T04:21:14.510128+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510128+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://185.141.227.223:443": {
       "first_seen_at": "2026-10-19T04:21:14.510145+00:00",
       "last_seen_at": "2026-10-21T04:24:17.728659+00:00",
@@ -4759,27 +4098,11 @@
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
-    "vless://78.24.92.70:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510147+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510147+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://103.199.18.84:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510149+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510149+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "vless://bounded-crammed.video-streams.org:443": {
       "first_seen_at": "2026-10-19T04:21:14.510151+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510151+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227305+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -4792,46 +4115,6 @@
       "avg_latency_ms": 693.3,
       "last_pass_at": "2026-10-31T05:14:18.493666+00:00"
     },
-    "vless://83.168.91.16:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510166+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510166+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://ru1.radiolumens.uk:8445": {
-      "first_seen_at": "2026-10-19T04:21:14.510169+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510169+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://185.14.97.217:8443": {
-      "first_seen_at": "2026-10-19T04:21:14.510171+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510171+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://144.24.71.172:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510174+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510174+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "vless://104.18.37.247:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510176+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510176+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "trojan://resources.findlocaljobnetworkandbuildcommunityconnections.com:443": {
       "first_seen_at": "2026-10-19T04:21:14.510178+00:00",
       "last_seen_at": "2026-10-29T05:28:57.590682+00:00",
@@ -4841,23 +4124,6 @@
       "avg_latency_ms": 326.1,
       "last_pass_at": "2026-10-29T05:28:57.590682+00:00"
     },
-    "trojan://de7.dedushka.top:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510181+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510181+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 432.2,
-      "last_pass_at": "2026-10-19T04:21:14.510181+00:00"
-    },
-    "trojan://104.18.65.57:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510198+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510198+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
     "trojan://4c2d5151.266nets.com:12019": {
       "first_seen_at": "2026-10-19T04:21:14.510200+00:00",
       "last_seen_at": "2026-10-22T04:23:07.920145+00:00",
@@ -4865,23 +4131,6 @@
       "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
-    },
-    "vmess://chuncheon02.zgjok.com:443": {
-      "first_seen_at": "2026-10-19T04:21:14.510218+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510218+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
-    },
-    "shadowsocks://64.74.163.67:18764": {
-      "first_seen_at": "2026-10-19T04:21:14.510271+00:00",
-      "last_seen_at": "2026-10-19T04:21:14.510271+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 84.9,
-      "last_pass_at": "2026-10-19T04:21:14.510271+00:00"
     },
     "hysteria2://103.115.109.49:443": {
       "first_seen_at": "2026-10-20T04:32:07.321210+00:00",
@@ -5261,9 +4510,9 @@
     },
     "vless://kclx.eu.org:443": {
       "first_seen_at": "2026-10-20T04:32:07.321825+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256834+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227231+00:00",
       "consecutive_passes": 0,
-      "total_checks": 5,
+      "total_checks": 6,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -5612,9 +4861,9 @@
     },
     "hysteria2://179.61.138.145:36264": {
       "first_seen_at": "2026-10-21T04:24:17.727865+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256425+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226847+00:00",
       "consecutive_passes": 0,
-      "total_checks": 10,
+      "total_checks": 11,
       "total_passes": 1,
       "avg_latency_ms": 665.9,
       "last_pass_at": "2026-10-26T04:25:06.657928+00:00"
@@ -5638,9 +4887,9 @@
     },
     "hysteria2://179.61.138.145:54759": {
       "first_seen_at": "2026-10-21T04:24:17.727915+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256303+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226729+00:00",
       "consecutive_passes": 0,
-      "total_checks": 10,
+      "total_checks": 11,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -5654,9 +4903,9 @@
     },
     "hysteria2://31.76.27.23:37009": {
       "first_seen_at": "2026-10-21T04:24:17.727978+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256386+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226894+00:00",
       "consecutive_passes": 0,
-      "total_checks": 8,
+      "total_checks": 9,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -5679,9 +4928,9 @@
     },
     "hysteria2://77.110.96.201:36264": {
       "first_seen_at": "2026-10-21T04:24:17.728021+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256514+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226826+00:00",
       "consecutive_passes": 0,
-      "total_checks": 11,
+      "total_checks": 12,
       "total_passes": 1,
       "avg_latency_ms": 655.4,
       "last_pass_at": "2026-10-21T04:24:17.728021+00:00"
@@ -5713,9 +4962,9 @@
     },
     "vmess://wjofhsqteueywxeq.v.3dns.vip:443": {
       "first_seen_at": "2026-10-21T04:24:17.728111+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493381+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227090+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -5772,18 +5021,18 @@
     },
     "shadowsocks://202.50.253.36:19999": {
       "first_seen_at": "2026-10-21T04:24:17.728273+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257160+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227029+00:00",
       "consecutive_passes": 0,
-      "total_checks": 12,
+      "total_checks": 13,
       "total_passes": 10,
       "avg_latency_ms": 425.5,
       "last_pass_at": "2026-10-31T05:14:18.493521+00:00"
     },
     "shadowsocks://202.50.253.54:19999": {
       "first_seen_at": "2026-10-21T04:24:17.728288+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257018+00:00",
-      "consecutive_passes": 10,
-      "total_checks": 12,
+      "last_seen_at": "2026-11-02T05:41:42.227054+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 13,
       "total_passes": 11,
       "avg_latency_ms": 411.6,
       "last_pass_at": "2026-11-01T05:43:13.257018+00:00"
@@ -6016,9 +5265,9 @@
     },
     "vless://137.220.221.179:443": {
       "first_seen_at": "2026-10-21T04:24:17.728443+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.590818+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226869+00:00",
       "consecutive_passes": 0,
-      "total_checks": 7,
+      "total_checks": 8,
       "total_passes": 2,
       "avg_latency_ms": 866.6,
       "last_pass_at": "2026-10-27T04:44:13.911760+00:00"
@@ -6114,9 +5363,9 @@
     },
     "vless://188.114.98.0:2053": {
       "first_seen_at": "2026-10-21T04:24:17.728507+00:00",
-      "last_seen_at": "2026-10-27T04:44:13.911630+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227114+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -6292,9 +5541,9 @@
     },
     "shadowsocks://202.50.253.45:19999": {
       "first_seen_at": "2026-10-21T04:24:17.728643+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257163+00:00",
-      "consecutive_passes": 4,
-      "total_checks": 12,
+      "last_seen_at": "2026-11-02T05:41:42.227571+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 13,
       "total_passes": 11,
       "avg_latency_ms": 437.8,
       "last_pass_at": "2026-11-01T05:43:13.257163+00:00"
@@ -6403,9 +5652,9 @@
     },
     "vmess://3e89cnw0hgtifide.v.3dns.vip:443": {
       "first_seen_at": "2026-10-21T04:24:17.728751+00:00",
-      "last_seen_at": "2026-10-21T04:24:17.728751+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227485+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -6419,21 +5668,21 @@
     },
     "shadowsocks://202.50.253.27:19999": {
       "first_seen_at": "2026-10-21T04:24:17.728757+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257170+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 12,
-      "total_passes": 11,
-      "avg_latency_ms": 449.8,
-      "last_pass_at": "2026-10-31T05:14:18.493460+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227509+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 13,
+      "total_passes": 12,
+      "avg_latency_ms": 454.7,
+      "last_pass_at": "2026-11-02T05:41:42.227509+00:00"
     },
     "shadowsocks://185.176.204.18:19999": {
       "first_seen_at": "2026-10-21T04:24:17.728761+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256641+00:00",
-      "consecutive_passes": 5,
-      "total_checks": 12,
-      "total_passes": 10,
-      "avg_latency_ms": 353.0,
-      "last_pass_at": "2026-11-01T05:43:13.256641+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227015+00:00",
+      "consecutive_passes": 6,
+      "total_checks": 13,
+      "total_passes": 11,
+      "avg_latency_ms": 386.1,
+      "last_pass_at": "2026-11-02T05:41:42.227015+00:00"
     },
     "shadowsocks://62.210.26.134:12571": {
       "first_seen_at": "2026-10-21T04:24:17.728771+00:00",
@@ -6454,9 +5703,9 @@
     },
     "shadowsocks://202.50.253.90:19999": {
       "first_seen_at": "2026-10-21T04:24:17.728788+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257178+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227565+00:00",
       "consecutive_passes": 0,
-      "total_checks": 12,
+      "total_checks": 13,
       "total_passes": 10,
       "avg_latency_ms": 440.9,
       "last_pass_at": "2026-10-31T05:14:18.493908+00:00"
@@ -6521,12 +5770,12 @@
     },
     "vless://195.211.98.43:443": {
       "first_seen_at": "2026-10-22T04:23:07.919511+00:00",
-      "last_seen_at": "2026-10-22T04:23:07.919511+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 262.1,
-      "last_pass_at": "2026-10-22T04:23:07.919511+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.226854+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 315.4,
+      "last_pass_at": "2026-11-02T05:41:42.226854+00:00"
     },
     "vless://88.216.69.30:8880": {
       "first_seen_at": "2026-10-22T04:23:07.919540+00:00",
@@ -6573,12 +5822,12 @@
     },
     "shadowsocks://202.50.253.81:19999": {
       "first_seen_at": "2026-10-22T04:23:07.919581+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257157+00:00",
-      "consecutive_passes": 5,
-      "total_checks": 11,
-      "total_passes": 10,
-      "avg_latency_ms": 433.0,
-      "last_pass_at": "2026-11-01T05:43:13.257157+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227588+00:00",
+      "consecutive_passes": 6,
+      "total_checks": 12,
+      "total_passes": 11,
+      "avg_latency_ms": 455.2,
+      "last_pass_at": "2026-11-02T05:41:42.227588+00:00"
     },
     "hysteria2://31.76.27.23:443": {
       "first_seen_at": "2026-10-22T04:23:07.919584+00:00",
@@ -6625,9 +5874,9 @@
     },
     "shadowsocks://202.50.253.18:19999": {
       "first_seen_at": "2026-10-22T04:23:07.919614+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256630+00:00",
-      "consecutive_passes": 2,
-      "total_checks": 11,
+      "last_seen_at": "2026-11-02T05:41:42.227001+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 12,
       "total_passes": 10,
       "avg_latency_ms": 395.7,
       "last_pass_at": "2026-11-01T05:43:13.256630+00:00"
@@ -6667,30 +5916,30 @@
     },
     "shadowsocks://202.50.253.72:19999": {
       "first_seen_at": "2026-10-22T04:23:07.919636+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256589+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 11,
-      "total_passes": 7,
-      "avg_latency_ms": 537.7,
-      "last_pass_at": "2026-10-29T05:28:57.590750+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227562+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 12,
+      "total_passes": 8,
+      "avg_latency_ms": 495.5,
+      "last_pass_at": "2026-11-02T05:41:42.227562+00:00"
     },
     "shadowsocks://185.176.206.9:19999": {
       "first_seen_at": "2026-10-22T04:23:07.919643+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493821+00:00",
-      "consecutive_passes": 5,
-      "total_checks": 8,
-      "total_passes": 7,
-      "avg_latency_ms": 412.5,
-      "last_pass_at": "2026-10-31T05:14:18.493821+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227652+00:00",
+      "consecutive_passes": 6,
+      "total_checks": 9,
+      "total_passes": 8,
+      "avg_latency_ms": 402.1,
+      "last_pass_at": "2026-11-02T05:41:42.227652+00:00"
     },
     "shadowsocks://149.22.87.204:443": {
       "first_seen_at": "2026-10-22T04:23:07.919654+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557557+00:00",
-      "consecutive_passes": 2,
-      "total_checks": 2,
-      "total_passes": 2,
-      "avg_latency_ms": 343.6,
-      "last_pass_at": "2026-10-30T05:28:41.557557+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227529+00:00",
+      "consecutive_passes": 3,
+      "total_checks": 3,
+      "total_passes": 3,
+      "avg_latency_ms": 368.8,
+      "last_pass_at": "2026-11-02T05:41:42.227529+00:00"
     },
     "vless://144.31.181.177:8443": {
       "first_seen_at": "2026-10-22T04:23:07.919660+00:00",
@@ -6753,12 +6002,12 @@
     },
     "shadowsocks://202.50.253.99:19999": {
       "first_seen_at": "2026-10-22T04:23:07.919693+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257181+00:00",
-      "consecutive_passes": 11,
-      "total_checks": 11,
-      "total_passes": 11,
-      "avg_latency_ms": 391.4,
-      "last_pass_at": "2026-11-01T05:43:13.257181+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227644+00:00",
+      "consecutive_passes": 12,
+      "total_checks": 12,
+      "total_passes": 12,
+      "avg_latency_ms": 420.6,
+      "last_pass_at": "2026-11-02T05:41:42.227644+00:00"
     },
     "vless://46.137.202.178:12512": {
       "first_seen_at": "2026-10-22T04:23:07.919695+00:00",
@@ -6870,9 +6119,9 @@
     },
     "vless://185.121.179.122:443": {
       "first_seen_at": "2026-10-22T04:23:07.919769+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256870+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227200+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -6986,12 +6235,12 @@
     },
     "shadowsocks://202.50.253.63:19999": {
       "first_seen_at": "2026-10-22T04:23:07.919848+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256652+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 8,
-      "total_passes": 7,
-      "avg_latency_ms": 528.8,
-      "last_pass_at": "2026-11-01T05:43:13.256652+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227558+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 9,
+      "total_passes": 8,
+      "avg_latency_ms": 501.8,
+      "last_pass_at": "2026-11-02T05:41:42.227558+00:00"
     },
     "shadowsocks://185.226.172.8:8008": {
       "first_seen_at": "2026-10-22T04:23:07.919861+00:00",
@@ -8533,9 +7782,9 @@
     },
     "vless://book.jarbook.net:443": {
       "first_seen_at": "2026-10-24T04:18:11.365873+00:00",
-      "last_seen_at": "2026-10-24T04:18:11.365873+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227087+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -8779,9 +8028,9 @@
     },
     "shadowsocks://130.49.189.158:43558": {
       "first_seen_at": "2026-10-24T04:18:11.366132+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257209+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227576+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -8829,9 +8078,9 @@
     },
     "vless://md5.univesalsrv.com:443": {
       "first_seen_at": "2026-10-25T04:21:34.409374+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.682136+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227365+00:00",
       "consecutive_passes": 0,
-      "total_checks": 3,
+      "total_checks": 4,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -8935,9 +8184,9 @@
     },
     "vless://piracy-android.video-streams.org:443": {
       "first_seen_at": "2026-10-25T04:21:34.409526+00:00",
-      "last_seen_at": "2026-10-25T04:21:34.409526+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227242+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -9278,9 +8527,9 @@
     },
     "vless://freeiran.lookanet.app:443": {
       "first_seen_at": "2026-10-25T04:21:34.409755+00:00",
-      "last_seen_at": "2026-10-25T04:21:34.409755+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227359+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -9562,9 +8811,9 @@
     },
     "vmess://www.darkroom.lol:8080": {
       "first_seen_at": "2026-10-26T04:25:06.657782+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256398+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226844+00:00",
       "consecutive_passes": 0,
-      "total_checks": 7,
+      "total_checks": 8,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -9889,9 +9138,9 @@
     },
     "vless://areal1.greewebservices.ir:2425": {
       "first_seen_at": "2026-10-26T04:25:06.658113+00:00",
-      "last_seen_at": "2026-10-26T04:25:06.658113+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227152+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -10395,9 +9644,9 @@
     },
     "vless://assets.halyvanedorogo.ru:11515": {
       "first_seen_at": "2026-10-27T04:44:13.911666+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.556881+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227007+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -10721,17 +9970,17 @@
     },
     "vless://178.172.227.228:14430": {
       "first_seen_at": "2026-10-27T04:44:13.911973+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256815+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227299+00:00",
       "consecutive_passes": 0,
-      "total_checks": 3,
+      "total_checks": 4,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "trojan://188.114.96.1:2083": {
       "first_seen_at": "2026-10-27T04:44:13.911981+00:00",
-      "last_seen_at": "2026-10-27T04:44:13.911981+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227431+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -11281,17 +10530,17 @@
     },
     "vless://p1tun0.greewebservices.ir:38820": {
       "first_seen_at": "2026-10-28T05:18:04.681977+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256656+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227274+00:00",
       "consecutive_passes": 0,
-      "total_checks": 3,
+      "total_checks": 4,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "vless://104.18.40.100:443": {
       "first_seen_at": "2026-10-28T05:18:04.681984+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.681984+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227192+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -11339,12 +10588,12 @@
     },
     "vless://51.158.206.98:23576": {
       "first_seen_at": "2026-10-28T05:18:04.682026+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256910+00:00",
-      "consecutive_passes": 3,
-      "total_checks": 3,
-      "total_passes": 3,
-      "avg_latency_ms": 419.4,
-      "last_pass_at": "2026-11-01T05:43:13.256910+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227158+00:00",
+      "consecutive_passes": 4,
+      "total_checks": 4,
+      "total_passes": 4,
+      "avg_latency_ms": 465.0,
+      "last_pass_at": "2026-11-02T05:41:42.227158+00:00"
     },
     "vless://116.203.7.223:34257": {
       "first_seen_at": "2026-10-28T05:18:04.682037+00:00",
@@ -11456,9 +10705,9 @@
     },
     "vless://hw3.divarkhaghazi.com:465": {
       "first_seen_at": "2026-10-28T05:18:04.682161+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256491+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226897+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 1,
       "avg_latency_ms": 779.2,
       "last_pass_at": "2026-10-31T05:14:18.493593+00:00"
@@ -11695,9 +10944,9 @@
     },
     "trojan://45.128.76.242:443": {
       "first_seen_at": "2026-10-28T05:18:04.682371+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557454+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227401+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 1,
       "avg_latency_ms": 436.2,
       "last_pass_at": "2026-10-28T05:18:04.682371+00:00"
@@ -11747,18 +10996,18 @@
     },
     "trojan://66.163.122.7:443": {
       "first_seen_at": "2026-10-28T05:18:04.682415+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493773+00:00",
-      "consecutive_passes": 3,
-      "total_checks": 3,
-      "total_passes": 3,
-      "avg_latency_ms": 169.9,
-      "last_pass_at": "2026-10-31T05:14:18.493773+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227444+00:00",
+      "consecutive_passes": 4,
+      "total_checks": 4,
+      "total_passes": 4,
+      "avg_latency_ms": 214.6,
+      "last_pass_at": "2026-11-02T05:41:42.227444+00:00"
     },
     "vmess://www.windowssearchtools.com:443": {
       "first_seen_at": "2026-10-28T05:18:04.682419+00:00",
-      "last_seen_at": "2026-10-28T05:18:04.682419+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
+      "last_seen_at": "2026-11-02T05:41:42.227497+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 2,
       "total_passes": 1,
       "avg_latency_ms": 657.1,
       "last_pass_at": "2026-10-28T05:18:04.682419+00:00"
@@ -11801,9 +11050,9 @@
     },
     "trojan://de-bots4.h1cloud.net:25267": {
       "first_seen_at": "2026-10-28T05:18:04.682454+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.591272+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227386+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -11979,9 +11228,9 @@
     },
     "vless://31.76.91.98:443": {
       "first_seen_at": "2026-10-29T05:28:57.590687+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.590687+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227168+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -11995,9 +11244,9 @@
     },
     "hysteria2://r5ycmuko.zibayeman.com:54280": {
       "first_seen_at": "2026-10-29T05:28:57.590704+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256410+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226906+00:00",
       "consecutive_passes": 0,
-      "total_checks": 4,
+      "total_checks": 5,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -12297,9 +11546,9 @@
     },
     "vless://104.21.221.158:443": {
       "first_seen_at": "2026-10-29T05:28:57.591110+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493570+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227215+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -12322,9 +11571,9 @@
     },
     "vless://6.bmi.ir.asopardaz.ir:8443": {
       "first_seen_at": "2026-10-29T05:28:57.591127+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.591127+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227289+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -12426,12 +11675,12 @@
     },
     "vless://31.77.13.22:2063": {
       "first_seen_at": "2026-10-29T05:28:57.591191+00:00",
-      "last_seen_at": "2026-10-29T05:28:57.591191+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 518.2,
-      "last_pass_at": "2026-10-29T05:28:57.591191+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.226839+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 614.3,
+      "last_pass_at": "2026-11-02T05:41:42.226839+00:00"
     },
     "vless://95.130.84.36:8443": {
       "first_seen_at": "2026-10-29T05:28:57.591195+00:00",
@@ -12459,12 +11708,12 @@
     },
     "vless://88.216.69.253:443": {
       "first_seen_at": "2026-10-29T05:28:57.591218+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256725+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 4,
-      "total_passes": 1,
-      "avg_latency_ms": 155.5,
-      "last_pass_at": "2026-10-30T05:28:41.557291+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227171+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 5,
+      "total_passes": 2,
+      "avg_latency_ms": 149.3,
+      "last_pass_at": "2026-11-02T05:41:42.227171+00:00"
     },
     "vless://177.7.51.29:8443": {
       "first_seen_at": "2026-10-29T05:28:57.591224+00:00",
@@ -12484,9 +11733,9 @@
     },
     "vless://198.211.123.90:443": {
       "first_seen_at": "2026-10-29T05:28:57.591235+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256863+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 2,
+      "last_seen_at": "2026-11-02T05:41:42.227112+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 3,
       "total_passes": 1,
       "avg_latency_ms": 461.8,
       "last_pass_at": "2026-11-01T05:43:13.256863+00:00"
@@ -12632,12 +11881,12 @@
     },
     "vless://51.158.206.97:23576": {
       "first_seen_at": "2026-10-30T05:28:41.556845+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.556845+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 535.6,
-      "last_pass_at": "2026-10-30T05:28:41.556845+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.226915+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 511.2,
+      "last_pass_at": "2026-11-02T05:41:42.226915+00:00"
     },
     "hysteria2://3.76.221.4:443": {
       "first_seen_at": "2026-10-30T05:28:41.556860+00:00",
@@ -12758,9 +12007,9 @@
     },
     "vless://px2.5ibtc.cn:443": {
       "first_seen_at": "2026-10-30T05:28:41.557014+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557014+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227179+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -12774,18 +12023,18 @@
     },
     "hysteria2://147.45.149.88:8443": {
       "first_seen_at": "2026-10-30T05:28:41.557024+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256528+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226918+00:00",
       "consecutive_passes": 0,
-      "total_checks": 3,
+      "total_checks": 4,
       "total_passes": 1,
       "avg_latency_ms": 564.2,
       "last_pass_at": "2026-10-30T05:28:41.557024+00:00"
     },
     "vless://151.101.67.6:443": {
       "first_seen_at": "2026-10-30T05:28:41.557027+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256926+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227067+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -12840,9 +12089,9 @@
     },
     "vless://static.blog-forme.ru:443": {
       "first_seen_at": "2026-10-30T05:28:41.557090+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557090+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227218+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13050,11 +12299,12 @@
     },
     "vless://130.49.177.193:443": {
       "first_seen_at": "2026-10-30T05:28:41.557273+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557273+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.227051+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 644.2,
+      "last_pass_at": "2026-11-02T05:41:42.227051+00:00"
     },
     "vless://45.92.218.130:443": {
       "first_seen_at": "2026-10-30T05:28:41.557276+00:00",
@@ -13130,18 +12380,18 @@
     },
     "vless://165.154.63.139:443": {
       "first_seen_at": "2026-10-30T05:28:41.557334+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557334+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 908.6,
-      "last_pass_at": "2026-10-30T05:28:41.557334+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227063+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 805.2,
+      "last_pass_at": "2026-11-02T05:41:42.227063+00:00"
     },
     "vless://88d5a34e7e43.salzivo.ir:443": {
       "first_seen_at": "2026-10-30T05:28:41.557339+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557339+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227229+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13188,11 +12438,12 @@
     },
     "trojan://216.238.104.154:443": {
       "first_seen_at": "2026-10-30T05:28:41.557362+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557362+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.227464+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 717.2,
+      "last_pass_at": "2026-11-02T05:41:42.227464+00:00"
     },
     "vless://51.158.206.8:23576": {
       "first_seen_at": "2026-10-30T05:28:41.557365+00:00",
@@ -13239,20 +12490,21 @@
     },
     "trojan://216.152.155.131:443": {
       "first_seen_at": "2026-10-30T05:28:41.557378+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557378+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.227437+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 151.5,
+      "last_pass_at": "2026-11-02T05:41:42.227437+00:00"
     },
     "trojan://66.163.118.244:443": {
       "first_seen_at": "2026-10-30T05:28:41.557383+00:00",
-      "last_seen_at": "2026-10-30T05:28:41.557383+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 609.6,
-      "last_pass_at": "2026-10-30T05:28:41.557383+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227416+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 634.8,
+      "last_pass_at": "2026-11-02T05:41:42.227416+00:00"
     },
     "trojan://169.197.140.169:443": {
       "first_seen_at": "2026-10-30T05:28:41.557389+00:00",
@@ -13321,12 +12573,12 @@
     },
     "trojan://149.28.130.108:443": {
       "first_seen_at": "2026-10-30T05:28:41.557431+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493719+00:00",
-      "consecutive_passes": 2,
-      "total_checks": 2,
-      "total_passes": 2,
-      "avg_latency_ms": 784.5,
-      "last_pass_at": "2026-10-31T05:14:18.493719+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227339+00:00",
+      "consecutive_passes": 3,
+      "total_checks": 3,
+      "total_passes": 3,
+      "avg_latency_ms": 776.2,
+      "last_pass_at": "2026-11-02T05:41:42.227339+00:00"
     },
     "trojan://190.93.244.202:443": {
       "first_seen_at": "2026-10-30T05:28:41.557459+00:00",
@@ -13397,9 +12649,9 @@
     },
     "trojan://167.82.64.120:443": {
       "first_seen_at": "2026-10-30T05:28:41.557485+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256950+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227426+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13529,12 +12781,12 @@
     },
     "vless://156.252.229.136:8443": {
       "first_seen_at": "2026-10-31T05:14:18.493445+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256566+00:00",
-      "consecutive_passes": 2,
-      "total_checks": 2,
-      "total_passes": 2,
-      "avg_latency_ms": 666.8,
-      "last_pass_at": "2026-11-01T05:43:13.256566+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.226968+00:00",
+      "consecutive_passes": 3,
+      "total_checks": 3,
+      "total_passes": 3,
+      "avg_latency_ms": 733.4,
+      "last_pass_at": "2026-11-02T05:41:42.226968+00:00"
     },
     "vless://185.168.208.190:47443": {
       "first_seen_at": "2026-10-31T05:14:18.493466+00:00",
@@ -13627,9 +12879,9 @@
     },
     "vless://122.176.216.52:443": {
       "first_seen_at": "2026-10-31T05:14:18.493532+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256689+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227253+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13651,9 +12903,9 @@
     },
     "vless://151.101.56.7:443": {
       "first_seen_at": "2026-10-31T05:14:18.493543+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493543+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226981+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13691,9 +12943,9 @@
     },
     "vless://60.248.219.53:443": {
       "first_seen_at": "2026-10-31T05:14:18.493552+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256822+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227144+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13739,11 +12991,12 @@
     },
     "vless://185.225.205.53:443": {
       "first_seen_at": "2026-10-31T05:14:18.493596+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493596+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.226910+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 681.4,
+      "last_pass_at": "2026-11-02T05:41:42.226910+00:00"
     },
     "vless://93.152.206.112:443": {
       "first_seen_at": "2026-10-31T05:14:18.493597+00:00",
@@ -13827,9 +13080,9 @@
     },
     "vless://185.126.93.225:443": {
       "first_seen_at": "2026-10-31T05:14:18.493655+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493655+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227330+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13867,9 +13120,9 @@
     },
     "vless://bro-per-bro.cc.cd:443": {
       "first_seen_at": "2026-10-31T05:14:18.493688+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256586+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227075+00:00",
       "consecutive_passes": 0,
-      "total_checks": 2,
+      "total_checks": 3,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -13958,9 +13211,9 @@
     },
     "vless://87.232.116.20:443": {
       "first_seen_at": "2026-10-31T05:14:18.493743+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493743+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227057+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14047,21 +13300,21 @@
     },
     "vmess://cf.0sm.com:443": {
       "first_seen_at": "2026-10-31T05:14:18.493780+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493780+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
+      "last_seen_at": "2026-11-02T05:41:42.227526+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 2,
       "total_passes": 1,
       "avg_latency_ms": 536.6,
       "last_pass_at": "2026-10-31T05:14:18.493780+00:00"
     },
     "trojan://216.152.155.158:443": {
       "first_seen_at": "2026-10-31T05:14:18.493782+00:00",
-      "last_seen_at": "2026-10-31T05:14:18.493782+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 123.7,
-      "last_pass_at": "2026-10-31T05:14:18.493782+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227457+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 135.7,
+      "last_pass_at": "2026-11-02T05:41:42.227457+00:00"
     },
     "trojan://66.163.112.13:443": {
       "first_seen_at": "2026-10-31T05:14:18.493789+00:00",
@@ -14100,9 +13353,9 @@
     },
     "trojan://in002.zestapp778.com:42733": {
       "first_seen_at": "2026-10-31T05:14:18.493801+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257080+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 2,
+      "last_seen_at": "2026-11-02T05:41:42.227389+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 3,
       "total_passes": 1,
       "avg_latency_ms": 959.7,
       "last_pass_at": "2026-11-01T05:43:13.257080+00:00"
@@ -14250,11 +13503,12 @@
     },
     "hysteria2://13.143.189.106:4444": {
       "first_seen_at": "2026-11-01T05:43:13.256418+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256418+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.226793+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 854.8,
+      "last_pass_at": "2026-11-02T05:41:42.226793+00:00"
     },
     "hysteria2://9.247.54.68:443": {
       "first_seen_at": "2026-11-01T05:43:13.256433+00:00",
@@ -14292,11 +13546,12 @@
     },
     "hysteria2://13.143.188.142:4444": {
       "first_seen_at": "2026-11-01T05:43:13.256485+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256485+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.226947+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 715.7,
+      "last_pass_at": "2026-11-02T05:41:42.226947+00:00"
     },
     "vless://104.24.223.66:8080": {
       "first_seen_at": "2026-11-01T05:43:13.256488+00:00",
@@ -14308,9 +13563,9 @@
     },
     "vmess://cg1c02.waimaojd.com:443": {
       "first_seen_at": "2026-11-01T05:43:13.256495+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256495+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
+      "last_seen_at": "2026-11-02T05:41:42.227127+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 2,
       "total_passes": 1,
       "avg_latency_ms": 521.5,
       "last_pass_at": "2026-11-01T05:43:13.256495+00:00"
@@ -14373,9 +13628,9 @@
     },
     "vless://151.101.131.6:443": {
       "first_seen_at": "2026-11-01T05:43:13.256547+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256547+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227321+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14389,9 +13644,9 @@
     },
     "vless://185.126.93.227:443": {
       "first_seen_at": "2026-11-01T05:43:13.256556+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256556+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227069+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14495,9 +13750,9 @@
     },
     "vless://ru3.radiolumens.uk:8444": {
       "first_seen_at": "2026-11-01T05:43:13.256665+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256665+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227102+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14535,9 +13790,9 @@
     },
     "vless://51.77.144.182:8080": {
       "first_seen_at": "2026-11-01T05:43:13.256704+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256704+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226995+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14618,9 +13873,9 @@
     },
     "vless://83.97.79.93:8443": {
       "first_seen_at": "2026-11-01T05:43:13.256763+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256763+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227245+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14783,9 +14038,9 @@
     },
     "vless://185.229.9.135:443": {
       "first_seen_at": "2026-11-01T05:43:13.256866+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256866+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227294+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14807,9 +14062,9 @@
     },
     "vless://173.249.208.27:443": {
       "first_seen_at": "2026-11-01T05:43:13.256884+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256884+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227282+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
@@ -14856,9 +14111,9 @@
     },
     "vless://hw5.roghanmo.com:465": {
       "first_seen_at": "2026-11-01T05:43:13.256920+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.256920+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
+      "last_seen_at": "2026-11-02T05:41:42.227197+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 2,
       "total_passes": 1,
       "avg_latency_ms": 660.6,
       "last_pass_at": "2026-11-01T05:43:13.256920+00:00"
@@ -15021,11 +14276,12 @@
     },
     "shadowsocks://82.38.31.28:8080": {
       "first_seen_at": "2026-11-01T05:43:13.257012+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257012+00:00",
-      "consecutive_passes": 0,
-      "total_checks": 1,
-      "total_passes": 0,
-      "avg_latency_ms": 0.0
+      "last_seen_at": "2026-11-02T05:41:42.227522+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 2,
+      "total_passes": 1,
+      "avg_latency_ms": 596.3,
+      "last_pass_at": "2026-11-02T05:41:42.227522+00:00"
     },
     "trojan://216.152.147.89:443": {
       "first_seen_at": "2026-11-01T05:43:13.257015+00:00",
@@ -15144,9 +14400,9 @@
     },
     "shadowsocks://dns22.m3hrzd.ir:8044": {
       "first_seen_at": "2026-11-01T05:43:13.257095+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257095+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
+      "last_seen_at": "2026-11-02T05:41:42.227585+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 2,
       "total_passes": 1,
       "avg_latency_ms": 315.9,
       "last_pass_at": "2026-11-01T05:43:13.257095+00:00"
@@ -15218,20 +14474,20 @@
     },
     "shadowsocks://alb.rvpn.app:8388": {
       "first_seen_at": "2026-11-01T05:43:13.257173+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257173+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227574+00:00",
       "consecutive_passes": 0,
-      "total_checks": 1,
+      "total_checks": 2,
       "total_passes": 0,
       "avg_latency_ms": 0.0
     },
     "shadowsocks://38.54.59.102:443": {
       "first_seen_at": "2026-11-01T05:43:13.257191+00:00",
-      "last_seen_at": "2026-11-01T05:43:13.257191+00:00",
-      "consecutive_passes": 1,
-      "total_checks": 1,
-      "total_passes": 1,
-      "avg_latency_ms": 571.2,
-      "last_pass_at": "2026-11-01T05:43:13.257191+00:00"
+      "last_seen_at": "2026-11-02T05:41:42.227568+00:00",
+      "consecutive_passes": 2,
+      "total_checks": 2,
+      "total_passes": 2,
+      "avg_latency_ms": 619.7,
+      "last_pass_at": "2026-11-02T05:41:42.227568+00:00"
     },
     "shadowsocks://msk2.rvpn.app:8388": {
       "first_seen_at": "2026-11-01T05:43:13.257201+00:00",
@@ -15249,6 +14505,840 @@
       "total_passes": 1,
       "avg_latency_ms": 463.7,
       "last_pass_at": "2026-11-01T05:43:13.257212+00:00"
+    },
+    "hysteria2://ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online:24500": {
+      "first_seen_at": "2026-11-02T05:41:42.226760+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226760+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "hysteria2://9.247.54.69:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226766+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226766+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://138.124.39.251:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226771+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226771+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 655.0,
+      "last_pass_at": "2026-11-02T05:41:42.226771+00:00"
+    },
+    "hysteria2://177.3.220.9:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226811+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226811+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://92.243.74.224:8443": {
+      "first_seen_at": "2026-11-02T05:41:42.226817+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226817+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "hysteria2://45.192.12.83:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226830+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226830+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://46.28.71.247:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226859+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226859+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://134.185.81.5:47881": {
+      "first_seen_at": "2026-11-02T05:41:42.226872+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226872+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "hysteria2://13.143.189.96:4444": {
+      "first_seen_at": "2026-11-02T05:41:42.226879+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226879+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 846.6,
+      "last_pass_at": "2026-11-02T05:41:42.226879+00:00"
+    },
+    "vless://xray2-direct-mci1-fs-ce.freesocks.work:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226883+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226883+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://89.105.218.106:2083": {
+      "first_seen_at": "2026-11-02T05:41:42.226886+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226886+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://a0688bt.us4.h1clayd.click:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226900+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226900+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://p11real3.greewebservices.ir:2202": {
+      "first_seen_at": "2026-11-02T05:41:42.226925+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226925+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://200.169.184.168:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226927+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226927+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "hysteria2://13.143.189.105:4444": {
+      "first_seen_at": "2026-11-02T05:41:42.226935+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226935+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 677.8,
+      "last_pass_at": "2026-11-02T05:41:42.226935+00:00"
+    },
+    "vless://172.237.88.103:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226939+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226939+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 762.0,
+      "last_pass_at": "2026-11-02T05:41:42.226939+00:00"
+    },
+    "vless://141.193.154.234:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226944+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226944+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 251.6,
+      "last_pass_at": "2026-11-02T05:41:42.226944+00:00"
+    },
+    "hysteria2://198.13.140.193:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226952+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226952+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://167.82.64.46:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226955+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226955+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://dubai-cdn-keno.keno.su:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226958+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226958+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "hysteria2://ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online:25400": {
+      "first_seen_at": "2026-11-02T05:41:42.226965+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226965+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://79.141.164.81:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226972+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226972+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "hysteria2://ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online:13900": {
+      "first_seen_at": "2026-11-02T05:41:42.226977+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226977+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://191.44.108.31:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226985+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226985+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 666.6,
+      "last_pass_at": "2026-11-02T05:41:42.226985+00:00"
+    },
+    "vless://app-mi-26.spbstudentlife.com:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226992+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226992+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://152.70.58.201:443": {
+      "first_seen_at": "2026-11-02T05:41:42.226997+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.226997+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://47.251.25.74:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227011+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227011+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 143.1,
+      "last_pass_at": "2026-11-02T05:41:42.227011+00:00"
+    },
+    "vless://108.162.195.58:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227022+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227022+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://186.246.9.29:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227026+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227026+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://140.225.208.140:2083": {
+      "first_seen_at": "2026-11-02T05:41:42.227031+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227031+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://104.19.140.106:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227034+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227034+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://de-2.ffpn.pro:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227038+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227038+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "shadowsocks://82.38.31.174:8080": {
+      "first_seen_at": "2026-11-02T05:41:42.227041+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227041+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 552.3,
+      "last_pass_at": "2026-11-02T05:41:42.227041+00:00"
+    },
+    "vless://tg.riotvpn.eu:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227060+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227060+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://new-t11.vurneq.ir:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227072+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227072+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://fr.golangwikito.cfd:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227081+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227081+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 636.6,
+      "last_pass_at": "2026-11-02T05:41:42.227081+00:00"
+    },
+    "vless://minimize-evenness.cdn-content.com:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227093+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227093+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://152.228.139.33:35108": {
+      "first_seen_at": "2026-11-02T05:41:42.227096+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227096+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vmess://az-1.linkaa.xyz:55386": {
+      "first_seen_at": "2026-11-02T05:41:42.227099+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227099+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://saas.sin.fan:2087": {
+      "first_seen_at": "2026-11-02T05:41:42.227105+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227105+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 488.6,
+      "last_pass_at": "2026-11-02T05:41:42.227105+00:00"
+    },
+    "vmess://az-1.linkaa.xyz:53110": {
+      "first_seen_at": "2026-11-02T05:41:42.227117+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227117+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://adheres-scruple.quick-cdn.net:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227121+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227121+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://13.230.191.90:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227130+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227130+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://147.90.235.177:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227132+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227132+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 218.5,
+      "last_pass_at": "2026-11-02T05:41:42.227132+00:00"
+    },
+    "vmess://dog-jp.kunlun01dns.com:21017": {
+      "first_seen_at": "2026-11-02T05:41:42.227136+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227136+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://162.159.38.119:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227142+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227142+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://13.143.180.141:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227155+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227155+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://104.171.135.229:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227162+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227162+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://reqax.zqpm.ir:20727": {
+      "first_seen_at": "2026-11-02T05:41:42.227164+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227164+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://130.94.95.198:57353": {
+      "first_seen_at": "2026-11-02T05:41:42.227174+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227174+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://91.210.169.181:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227177+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227177+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://151.101.1.242:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227186+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227186+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://199.181.197.176:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227189+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227189+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://cz.pythonmakemigreat.wiki:61374": {
+      "first_seen_at": "2026-11-02T05:41:42.227195+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227195+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://150.241.79.124:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227206+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227206+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 571.6,
+      "last_pass_at": "2026-11-02T05:41:42.227206+00:00"
+    },
+    "vless://185.184.122.157:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227209+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227209+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://213.182.201.52:3090": {
+      "first_seen_at": "2026-11-02T05:41:42.227223+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227223+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://79.182.39.236:25362": {
+      "first_seen_at": "2026-11-02T05:41:42.227226+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227226+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://62.210.70.194:37783": {
+      "first_seen_at": "2026-11-02T05:41:42.227237+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227237+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://217.11.164.183:2120": {
+      "first_seen_at": "2026-11-02T05:41:42.227239+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227239+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://89.35.14.30:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227256+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227256+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://156.38.157.171:8443": {
+      "first_seen_at": "2026-11-02T05:41:42.227258+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227258+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://156.154.245.84:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227261+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227261+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://79.182.39.232:25895": {
+      "first_seen_at": "2026-11-02T05:41:42.227264+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227264+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 956.7,
+      "last_pass_at": "2026-11-02T05:41:42.227264+00:00"
+    },
+    "vless://4ba8a08bae9457ad.tunvi.w-ert.org:40287": {
+      "first_seen_at": "2026-11-02T05:41:42.227269+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227269+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://185.227.137.69:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227280+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227280+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://multi.videobaazi.ir:3921": {
+      "first_seen_at": "2026-11-02T05:41:42.227286+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227286+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://konglam.goodphilips.ir:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227297+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227297+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://104.26.14.85:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227302+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227302+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://188.114.98.6:2096": {
+      "first_seen_at": "2026-11-02T05:41:42.227307+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227307+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://ghosts-spasm.quick-cdn.net:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227310+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227310+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://51.44.145.255:22223": {
+      "first_seen_at": "2026-11-02T05:41:42.227313+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227313+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://151.101.129.242:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227316+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227316+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://199.232.8.223:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227318+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227318+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:35929": {
+      "first_seen_at": "2026-11-02T05:41:42.227327+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227327+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://31.172.69.31:8443": {
+      "first_seen_at": "2026-11-02T05:41:42.227336+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227336+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:41495": {
+      "first_seen_at": "2026-11-02T05:41:42.227346+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227346+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 838.4,
+      "last_pass_at": "2026-11-02T05:41:42.227346+00:00"
+    },
+    "vless://195.26.26.56:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227349+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227349+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:18295": {
+      "first_seen_at": "2026-11-02T05:41:42.227352+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227352+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:41184": {
+      "first_seen_at": "2026-11-02T05:41:42.227357+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227357+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:38963": {
+      "first_seen_at": "2026-11-02T05:41:42.227362+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227362+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://digia.riziro.ir:8443": {
+      "first_seen_at": "2026-11-02T05:41:42.227371+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227371+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://170.101.101.53:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227373+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227373+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://md1.univesalsrv.com:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227376+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227376+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:38994": {
+      "first_seen_at": "2026-11-02T05:41:42.227380+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227380+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vless://91.107.180.176:465": {
+      "first_seen_at": "2026-11-02T05:41:42.227383+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227383+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:26429": {
+      "first_seen_at": "2026-11-02T05:41:42.227392+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227392+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://66.163.114.245:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227395+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227395+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 154.0,
+      "last_pass_at": "2026-11-02T05:41:42.227395+00:00"
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:24914": {
+      "first_seen_at": "2026-11-02T05:41:42.227399+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227399+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://104.25.10.54:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227413+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227413+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://216.152.147.79:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227423+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227423+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:42338": {
+      "first_seen_at": "2026-11-02T05:41:42.227447+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227447+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://de001.zestapp778.com:51520": {
+      "first_seen_at": "2026-11-02T05:41:42.227450+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227450+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:15589": {
+      "first_seen_at": "2026-11-02T05:41:42.227454+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227454+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:37212": {
+      "first_seen_at": "2026-11-02T05:41:42.227460+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227460+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://ench-snet-app.w-ctrip.cn:18572": {
+      "first_seen_at": "2026-11-02T05:41:42.227468+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227468+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://66.163.127.155:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227471+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227471+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 570.9,
+      "last_pass_at": "2026-11-02T05:41:42.227471+00:00"
+    },
+    "trojan://170.101.101.19:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227475+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227475+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 223.7,
+      "last_pass_at": "2026-11-02T05:41:42.227475+00:00"
+    },
+    "trojan://151.101.56.9:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227478+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227478+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "trojan://v2jp.k1.ssnss.live:44184": {
+      "first_seen_at": "2026-11-02T05:41:42.227488+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227488+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vmess://s1.connect.bloroxy.net:1139": {
+      "first_seen_at": "2026-11-02T05:41:42.227491+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227491+00:00",
+      "consecutive_passes": 0,
+      "total_checks": 1,
+      "total_passes": 0,
+      "avg_latency_ms": 0.0
+    },
+    "vmess://www.windowsmsidownloads.com:443": {
+      "first_seen_at": "2026-11-02T05:41:42.227502+00:00",
+      "last_seen_at": "2026-11-02T05:41:42.227502+00:00",
+      "consecutive_passes": 1,
+      "total_checks": 1,
+      "total_passes": 1,
+      "avg_latency_ms": 513.5,
+      "last_pass_at": "2026-11-02T05:41:42.227502+00:00"
     }
   }
 }
