@@ -1,42 +1,19 @@
 {
   "outbounds": [
     {
-      "tag": "Germany [GH:Surfboardv2ra]",
+      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "169.40.42.231",
+      "server": "199.7.140.201",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "uuid": "a52ac672-0f5f-4070-b8fd-6b5685fc8004",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "yahoo.com",
+        "server_name": "www.cloudflare.com",
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "United States/North Bergen [GH:Mahdi0024/Pro]",
-      "type": "vless",
-      "server": "159.89.87.21",
-      "server_port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "aws.amazon.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno"
+          "public_key": "LRAkgKlj5BPtVAGEIZfO5LvDZ5Eg91X0CBKIYhBC1jE"
         },
         "utls": {
           "enabled": true,
@@ -45,65 +22,20 @@
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
+      "tag": "United States/Los Angeles [GH:Surfboardv2ra] #2",
       "type": "vless",
-      "server": "51.158.206.25",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "server": "107.173.237.146",
+      "server_port": 8443,
+      "uuid": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fuck.rkn",
+        "server_name": "updates.cdn-apple.com",
         "reality": {
           "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "51.158.206.8",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "Germany [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "77.90.2.130",
-      "server_port": 43086,
-      "uuid": "d782aa4c-9284-4a60-a9d9-f61412f8a2a4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "apple.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "SRKTZm_KYvsD9ONd5VU54ABZxudjR65r5Uhxc-1lLko",
-          "short_id": "1c601fed"
+          "public_key": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
+          "short_id": "df8611c07d"
         },
         "utls": {
           "enabled": true,
@@ -112,9 +44,9 @@
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #3",
+      "tag": "United States/Hillsboro [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "51.158.206.19",
+      "server": "ww13.levikogjgfdd.ir",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -135,9 +67,9 @@
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #4",
+      "tag": "United States/Hillsboro [GH:Surfboardv2ra] #2",
       "type": "vless",
-      "server": "51.158.206.87",
+      "server": "15.204.97.195",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -151,8 +83,7 @@
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
         },
         "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "enabled": true
         }
       }
     }

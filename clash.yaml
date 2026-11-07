@@ -5,34 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇩🇪 Germany [GH:Surfboardv2ra]
+- name: 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
   type: vless
-  server: 169.40.42.231
+  server: 199.7.140.201
   port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: a52ac672-0f5f-4070-b8fd-6b5685fc8004
   udp: true
-  flow: xtls-rprx-vision
   tls: true
-  servername: yahoo.com
+  servername: www.cloudflare.com
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
+    public-key: LRAkgKlj5BPtVAGEIZfO5LvDZ5Eg91X0CBKIYhBC1jE
   client-fingerprint: chrome
-- name: 🇺🇸 United States/North Bergen [GH:Mahdi0024/Pro]
+- name: '🇺🇸 United States/Los Angeles [GH:Surfboardv2ra] #2'
   type: vless
-  server: 159.89.87.21
-  port: 28190
-  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+  server: 107.173.237.146
+  port: 8443
+  uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
   udp: true
-  flow: xtls-rprx-vision
   tls: true
-  servername: aws.amazon.com
+  servername: updates.cdn-apple.com
   reality-opts:
-    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+    public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+    short-id: df8611c07d
   client-fingerprint: chrome
-- name: 🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra]
+- name: 🇺🇸 United States/Hillsboro [GH:Surfboardv2ra]
   type: vless
-  server: 51.158.206.25
+  server: ww13.levikogjgfdd.ir
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   udp: true
@@ -43,71 +41,6 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #2'
-  type: vless
-  server: 51.158.206.8
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: 🇺🇸 United States/Seattle [GH:Surfboardv2ra]
-  type: trojan
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  udp: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-- name: '🇩🇪 Germany [GH:Surfboardv2ra] #2'
-  type: vless
-  server: 77.90.2.130
-  port: 43086
-  uuid: d782aa4c-9284-4a60-a9d9-f61412f8a2a4
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: apple.com
-  reality-opts:
-    public-key: SRKTZm_KYvsD9ONd5VU54ABZxudjR65r5Uhxc-1lLko
-    short-id: 1c601fed
-  client-fingerprint: chrome
-- name: '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #3'
-  type: vless
-  server: 51.158.206.19
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #4'
-  type: vless
-  server: 51.158.206.87
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-  client-fingerprint: chrome
-- name: 🇺🇸 United States/Santa Clara [GH:Surfboardv2ra]
-  type: trojan
-  server: 167.88.61.198
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
 - name: 🇺🇸 United States/Denver [GH:Surfboardv2ra]
   type: trojan
   server: 66.163.114.106
@@ -115,90 +48,53 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-- name: 🇺🇸 United States/Salt Lake City [GH:Surfboardv2ra]
-  type: vmess
-  server: 192.166.82.21
-  port: 443
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  alterId: 0
-  cipher: auto
+- name: '🇺🇸 United States/Hillsboro [GH:Surfboardv2ra] #2'
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   udp: true
+  flow: xtls-rprx-vision
   tls: true
-  servername: us-slc-global1.xeovo.eu
-  network: ws
-  ws-opts:
-    path: /sacaca
-- name: 🇺🇸 United States/Phoenix [GH:Surfboardv2ra]
-  type: trojan
-  server: 66.163.112.13
+  servername: fuck.rkn
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  client-fingerprint: chrome
+- name: 🇺🇸 United States/Chicago [GH:ermaozi/get_s]
+  type: hysteria2
+  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
   udp: true
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-- name: 🇲🇽 Mexico/Querétaro City [GH:Surfboardv2ra]
-  type: trojan
-  server: 216.238.80.100
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: connectwithtopemployersandfindidealjobs.com
-- name: 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
-  type: trojan
-  server: 167.88.61.20
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: api.browseseniorrolesandenhanceyourcareertoday.com
-- name: 🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s]
-  type: trojan
-  server: 193.108.119.29
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: blog.iloverussia2026.com
+  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
 - name: 🇨🇦 Canada/Toronto [GH:Surfboardv2ra]
   type: trojan
-  server: 216.152.147.85
+  server: 216.152.147.48
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: cdn.connectingpeoplewithgreatjobs.com
-- name: 🇺🇸 United States/Chicago [GH:Surfboardv2ra]
-  type: trojan
-  server: 216.152.155.23
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
-- name: 🇺🇸 United States/Miami [GH:Surfboardv2ra]
-  type: trojan
-  server: 169.197.140.171
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-- name: 🇨🇱 Chile/Santiago [GH:Surfboardv2ra]
-  type: trojan
-  server: 64.176.7.205
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-- name: 🇵🇱 Poland/Warsaw [GH:ermaozi/get_s]
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-- name: 🇬🇧 United Kingdom/Manchester [GH:Surfboardv2ra]
+  sni: courses.connectingpeoplewithgreatjobs.com
+- name: 🇺🇸 United States/New York [GH:Surfboardv2ra]
   type: ss
-  server: 141.98.101.181
+  server: 37.19.198.243
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
   udp: true
+- name: 🇨🇦 Canada/Toronto [GH:ermaozi/get_s]
+  type: trojan
+  server: 216.152.147.152
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.connectingpeoplewithgreatjobs.com
+- name: 🇺🇸 United States/Detroit [GH:Surfboardv2ra]
+  type: trojan
+  server: 170.101.101.237
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.explorecreativejobsandenhanceyourcareerportfolio.com
 - name: 🇺🇸 United States/Phoenix [GH:Mahdi0024/Pro]
   type: vmess
   server: 129.146.77.248
@@ -212,73 +108,37 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: 129.146.77.248
-- name: 🇺🇸 United States/Elk Grove Village [GH:Surfboardv2ra]
-  type: vless
-  server: 108.61.119.63
-  port: 18580
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: us007.zestapp778.com
-- name: 🇬🇧 United Kingdom/London [GH:ermaozi/get_s]
+- name: 🇯🇵 Japan/Tokyo [GH:ermaozi/get_s]
   type: ss
-  server: 158.173.24.73
+  server: 84.247.155.196
   port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
+  password: 3eOFeNssde7PYYMv
+  cipher: aes-256-gcm
   udp: true
-- name: 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+- name: 🇳🇱 The Netherlands [GH:Surfboardv2ra]
   type: ss
-  server: 82.38.31.62
+  server: 193.29.139.212
   port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: QCXDxuDlTTMD7jtgHUjIoj
   cipher: chacha20-ietf-poly1305
   udp: true
-- name: 🇺🇸 United States/Atlanta [GH:Surfboardv2ra]
+- name: 🇺🇸 United States/Atlanta [GH:barry-far/V2r]
   type: ss
   server: 185.215.132.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: '🇺🇸 United States/Atlanta [GH:Surfboardv2ra] #2'
+- name: 🇺🇸 United States/Atlanta [GH:Surfboardv2ra]
   type: ss
   server: 185.215.132.9
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 🇬🇧 United Kingdom/City of London [GH:ermaozi/get_s]
+- name: 🇺🇸 United States/Ashburn [GH:Surfboardv2ra]
   type: ss
-  server: 185.176.206.9
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: '🇬🇧 United Kingdom [GH:Surfboardv2ra] #2'
-  type: ss
-  server: 82.38.31.165
-  port: 443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: 🇮🇹 Italy/Milan [GH:Surfboardv2ra]
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 🇮🇹 Italy/Milan [GH:ermaozi/get_s]
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 🇬🇧 United Kingdom [GH:ermaozi/get_s]
-  type: ss
-  server: 82.110.60.9
+  server: 45.86.51.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -290,82 +150,6 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra]
-  type: vmess
-  server: d2.anonix.cloud
-  port: 8018
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /websocket/transfer/gayporn
-    headers:
-      Host: shit.67133767.xyz
-- name: 🇫🇷 France [GH:ermaozi/get_s]
-  type: ss
-  server: pl134.vpnbook.com
-  port: 443
-  password: 6heexyz
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: '🇬🇧 United Kingdom [GH:Surfboardv2ra] #3'
-  type: ss
-  server: 82.38.31.46
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #2'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: 🇳🇱 The Netherlands [GH:Surfboardv2ra]
-  type: ss
-  server: 193.29.139.168
-  port: 8080
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: 🇺🇸 United States/Reston [GH:Mahdi0024/Pro]
-  type: ss
-  server: 15.204.246.108
-  port: 8881
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-  udp: true
-- name: 🇺🇸 United States/Miami [GH:ermaozi/get_s]
-  type: ss
-  server: 207.246.112.227
-  port: 1080
-  password: 9AUVPZfOeSHmVCMyLvIvrl1wVLvZf7Jv
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: 🇺🇸 United States/Washington [GH:ermaozi/get_s]
-  type: ss
-  server: 172.111.38.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #3'
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #4'
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
 - name: 🇦🇪 United Arab Emirates [GH:ermaozi/get_s]
   type: ss
   server: 151.241.19.29
@@ -373,32 +157,109 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: 🇦🇹 Austria/Vienna [GH:ermaozi/get_s]
+- name: 🇮🇹 Italy/Milan [GH:ermaozi/get_s]
   type: ss
-  server: 152.53.1.57
-  port: 8388
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  cipher: chacha20-ietf-poly1305
-  udp: true
-- name: '🇮🇹 Italy/Milan [GH:Surfboardv2ra] #2'
-  type: ss
-  server: 202.50.253.27
+  server: 202.50.253.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: '🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra] #2'
+- name: '🇳🇱 The Netherlands [GH:Surfboardv2ra] #2'
   type: ss
-  server: 185.176.204.18
+  server: 193.29.139.168
+  port: 8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #2'
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #3'
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+  type: ss
+  server: 82.38.31.202
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: 🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro]
+  type: ss
+  server: 5.188.181.201
+  port: 9031
+  password: BwcAUZk8hUFAkDGN
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #2'
+  type: ss
+  server: 5.188.181.201
+  port: 9041
+  password: U6qnYRhfyDmn8sgn
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #3'
+  type: ss
+  server: 5.188.181.201
+  port: 9030
+  password: GeregetR8cvQHzYr
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #4'
+  type: ss
+  server: 5.188.181.201
+  port: 9037
+  password: TN2YqghxeFDKZfLU
+  cipher: aes-256-cfb
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Surfboardv2ra] #2'
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Surfboardv2ra] #3'
+  type: ss
+  server: 82.38.31.214
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇬🇧 United Kingdom [GH:Surfboardv2ra] #4'
+  type: ss
+  server: 82.38.31.220
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  udp: true
+- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #4'
+  type: ss
+  server: 202.50.253.36
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
 - name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #5'
   type: ss
-  server: 202.50.253.36
+  server: 202.50.253.27
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇨🇦 Canada [GH:ermaozi/get_s]
+  type: ss
+  server: 51.79.64.198
+  port: 8119
+  password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
   udp: true
 - name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #6'
@@ -408,9 +269,114 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
-- name: '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #7'
+- name: '🇦🇪 United Arab Emirates [GH:ermaozi/get_s] #2'
   type: ss
-  server: 202.50.253.45
+  server: 151.241.19.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇺🇸 United States/Atlanta [GH:Surfboardv2ra] #2'
+  type: ss
+  server: 149.40.57.134
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
+  type: ss
+  server: 169.197.142.68
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇺🇸 United States/Atlanta [GH:ermaozi/get_s]
+  type: ss
+  server: 167.88.63.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #2'
+  type: ss
+  server: 38.121.43.225
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #3'
+  type: ss
+  server: 38.22.17.129
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #4'
+  type: ss
+  server: 38.22.17.219
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #5'
+  type: ss
+  server: 149.40.57.133
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #6'
+  type: ss
+  server: 149.40.57.138
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇺🇸 United States/Dallas [GH:ermaozi/get_s]
+  type: ss
+  server: 167.88.62.203
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s]
+  type: ss
+  server: 57.129.83.85
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇬🇧 United Kingdom/London [GH:ermaozi/get_s]
+  type: ss
+  server: 198.244.202.215
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇬🇧 United Kingdom/London [GH:ermaozi/get_s] #2'
+  type: ss
+  server: 198.244.201.129
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇨🇭 Switzerland/Zurich [GH:ermaozi/get_s]
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: 🇫🇷 France/Paris [GH:ermaozi/get_s]
+  type: ss
+  server: 38.109.228.110
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+- name: '🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s] #2'
+  type: ss
+  server: 193.108.119.3
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -421,109 +387,109 @@ proxy-groups:
   proxies:
   - Auto
   - DIRECT
-  - 🇩🇪 Germany [GH:Surfboardv2ra]
-  - 🇺🇸 United States/North Bergen [GH:Mahdi0024/Pro]
-  - 🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra]
-  - '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #2'
-  - 🇺🇸 United States/Seattle [GH:Surfboardv2ra]
-  - '🇩🇪 Germany [GH:Surfboardv2ra] #2'
-  - '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #3'
-  - '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #4'
-  - 🇺🇸 United States/Santa Clara [GH:Surfboardv2ra]
+  - 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
+  - '🇺🇸 United States/Los Angeles [GH:Surfboardv2ra] #2'
+  - 🇺🇸 United States/Hillsboro [GH:Surfboardv2ra]
   - 🇺🇸 United States/Denver [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Salt Lake City [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Phoenix [GH:Surfboardv2ra]
-  - 🇲🇽 Mexico/Querétaro City [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
-  - 🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s]
+  - '🇺🇸 United States/Hillsboro [GH:Surfboardv2ra] #2'
+  - 🇺🇸 United States/Chicago [GH:ermaozi/get_s]
   - 🇨🇦 Canada/Toronto [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Chicago [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Miami [GH:Surfboardv2ra]
-  - 🇨🇱 Chile/Santiago [GH:Surfboardv2ra]
-  - 🇵🇱 Poland/Warsaw [GH:ermaozi/get_s]
-  - 🇬🇧 United Kingdom/Manchester [GH:Surfboardv2ra]
+  - 🇺🇸 United States/New York [GH:Surfboardv2ra]
+  - 🇨🇦 Canada/Toronto [GH:ermaozi/get_s]
+  - 🇺🇸 United States/Detroit [GH:Surfboardv2ra]
   - 🇺🇸 United States/Phoenix [GH:Mahdi0024/Pro]
-  - 🇺🇸 United States/Elk Grove Village [GH:Surfboardv2ra]
-  - 🇬🇧 United Kingdom/London [GH:ermaozi/get_s]
-  - 🇬🇧 United Kingdom [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Atlanta [GH:Surfboardv2ra]
-  - '🇺🇸 United States/Atlanta [GH:Surfboardv2ra] #2'
-  - 🇬🇧 United Kingdom/City of London [GH:ermaozi/get_s]
-  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #2'
-  - 🇮🇹 Italy/Milan [GH:Surfboardv2ra]
-  - 🇮🇹 Italy/Milan [GH:ermaozi/get_s]
-  - 🇬🇧 United Kingdom [GH:ermaozi/get_s]
-  - 🌍 Ukraine [GH:ermaozi/get_s]
-  - 🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra]
-  - 🇫🇷 France [GH:ermaozi/get_s]
-  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #3'
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #2'
+  - 🇯🇵 Japan/Tokyo [GH:ermaozi/get_s]
   - 🇳🇱 The Netherlands [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Reston [GH:Mahdi0024/Pro]
-  - 🇺🇸 United States/Miami [GH:ermaozi/get_s]
-  - 🇺🇸 United States/Washington [GH:ermaozi/get_s]
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #3'
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #4'
+  - 🇺🇸 United States/Atlanta [GH:barry-far/V2r]
+  - 🇺🇸 United States/Atlanta [GH:Surfboardv2ra]
+  - 🇺🇸 United States/Ashburn [GH:Surfboardv2ra]
+  - 🌍 Ukraine [GH:ermaozi/get_s]
   - 🇦🇪 United Arab Emirates [GH:ermaozi/get_s]
-  - 🇦🇹 Austria/Vienna [GH:ermaozi/get_s]
-  - '🇮🇹 Italy/Milan [GH:Surfboardv2ra] #2'
-  - '🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra] #2'
+  - 🇮🇹 Italy/Milan [GH:ermaozi/get_s]
+  - '🇳🇱 The Netherlands [GH:Surfboardv2ra] #2'
+  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #2'
+  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #3'
+  - 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+  - 🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro]
+  - '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #2'
+  - '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #3'
+  - '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #4'
+  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #2'
+  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #3'
+  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #4'
+  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #4'
   - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #5'
+  - 🇨🇦 Canada [GH:ermaozi/get_s]
   - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #6'
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #7'
+  - '🇦🇪 United Arab Emirates [GH:ermaozi/get_s] #2'
+  - '🇺🇸 United States/Atlanta [GH:Surfboardv2ra] #2'
+  - 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
+  - 🇺🇸 United States/Atlanta [GH:ermaozi/get_s]
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #2'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #3'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #4'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #5'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #6'
+  - 🇺🇸 United States/Dallas [GH:ermaozi/get_s]
+  - 🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s]
+  - 🇬🇧 United Kingdom/London [GH:ermaozi/get_s]
+  - '🇬🇧 United Kingdom/London [GH:ermaozi/get_s] #2'
+  - 🇨🇭 Switzerland/Zurich [GH:ermaozi/get_s]
+  - 🇫🇷 France/Paris [GH:ermaozi/get_s]
+  - '🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s] #2'
 - name: Auto
   type: url-test
   proxies:
-  - 🇩🇪 Germany [GH:Surfboardv2ra]
-  - 🇺🇸 United States/North Bergen [GH:Mahdi0024/Pro]
-  - 🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra]
-  - '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #2'
-  - 🇺🇸 United States/Seattle [GH:Surfboardv2ra]
-  - '🇩🇪 Germany [GH:Surfboardv2ra] #2'
-  - '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #3'
-  - '🇳🇱 The Netherlands/Haarlem [GH:Surfboardv2ra] #4'
-  - 🇺🇸 United States/Santa Clara [GH:Surfboardv2ra]
+  - 🇺🇸 United States/Los Angeles [GH:Surfboardv2ra]
+  - '🇺🇸 United States/Los Angeles [GH:Surfboardv2ra] #2'
+  - 🇺🇸 United States/Hillsboro [GH:Surfboardv2ra]
   - 🇺🇸 United States/Denver [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Salt Lake City [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Phoenix [GH:Surfboardv2ra]
-  - 🇲🇽 Mexico/Querétaro City [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
-  - 🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s]
+  - '🇺🇸 United States/Hillsboro [GH:Surfboardv2ra] #2'
+  - 🇺🇸 United States/Chicago [GH:ermaozi/get_s]
   - 🇨🇦 Canada/Toronto [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Chicago [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Miami [GH:Surfboardv2ra]
-  - 🇨🇱 Chile/Santiago [GH:Surfboardv2ra]
-  - 🇵🇱 Poland/Warsaw [GH:ermaozi/get_s]
-  - 🇬🇧 United Kingdom/Manchester [GH:Surfboardv2ra]
+  - 🇺🇸 United States/New York [GH:Surfboardv2ra]
+  - 🇨🇦 Canada/Toronto [GH:ermaozi/get_s]
+  - 🇺🇸 United States/Detroit [GH:Surfboardv2ra]
   - 🇺🇸 United States/Phoenix [GH:Mahdi0024/Pro]
-  - 🇺🇸 United States/Elk Grove Village [GH:Surfboardv2ra]
-  - 🇬🇧 United Kingdom/London [GH:ermaozi/get_s]
-  - 🇬🇧 United Kingdom [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Atlanta [GH:Surfboardv2ra]
-  - '🇺🇸 United States/Atlanta [GH:Surfboardv2ra] #2'
-  - 🇬🇧 United Kingdom/City of London [GH:ermaozi/get_s]
-  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #2'
-  - 🇮🇹 Italy/Milan [GH:Surfboardv2ra]
-  - 🇮🇹 Italy/Milan [GH:ermaozi/get_s]
-  - 🇬🇧 United Kingdom [GH:ermaozi/get_s]
-  - 🌍 Ukraine [GH:ermaozi/get_s]
-  - 🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra]
-  - 🇫🇷 France [GH:ermaozi/get_s]
-  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #3'
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #2'
+  - 🇯🇵 Japan/Tokyo [GH:ermaozi/get_s]
   - 🇳🇱 The Netherlands [GH:Surfboardv2ra]
-  - 🇺🇸 United States/Reston [GH:Mahdi0024/Pro]
-  - 🇺🇸 United States/Miami [GH:ermaozi/get_s]
-  - 🇺🇸 United States/Washington [GH:ermaozi/get_s]
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #3'
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #4'
+  - 🇺🇸 United States/Atlanta [GH:barry-far/V2r]
+  - 🇺🇸 United States/Atlanta [GH:Surfboardv2ra]
+  - 🇺🇸 United States/Ashburn [GH:Surfboardv2ra]
+  - 🌍 Ukraine [GH:ermaozi/get_s]
   - 🇦🇪 United Arab Emirates [GH:ermaozi/get_s]
-  - 🇦🇹 Austria/Vienna [GH:ermaozi/get_s]
-  - '🇮🇹 Italy/Milan [GH:Surfboardv2ra] #2'
-  - '🇩🇪 Germany/Frankfurt am Main [GH:Surfboardv2ra] #2'
+  - 🇮🇹 Italy/Milan [GH:ermaozi/get_s]
+  - '🇳🇱 The Netherlands [GH:Surfboardv2ra] #2'
+  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #2'
+  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #3'
+  - 🇬🇧 United Kingdom [GH:Surfboardv2ra]
+  - 🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro]
+  - '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #2'
+  - '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #3'
+  - '🇪🇸 Spain/Madrid [GH:Mahdi0024/Pro] #4'
+  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #2'
+  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #3'
+  - '🇬🇧 United Kingdom [GH:Surfboardv2ra] #4'
+  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #4'
   - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #5'
+  - 🇨🇦 Canada [GH:ermaozi/get_s]
   - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #6'
-  - '🇮🇹 Italy/Milan [GH:ermaozi/get_s] #7'
+  - '🇦🇪 United Arab Emirates [GH:ermaozi/get_s] #2'
+  - '🇺🇸 United States/Atlanta [GH:Surfboardv2ra] #2'
+  - 🇺🇸 United States/Santa Clara [GH:ermaozi/get_s]
+  - 🇺🇸 United States/Atlanta [GH:ermaozi/get_s]
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #2'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #3'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #4'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #5'
+  - '🇺🇸 United States/Atlanta [GH:ermaozi/get_s] #6'
+  - 🇺🇸 United States/Dallas [GH:ermaozi/get_s]
+  - 🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s]
+  - 🇬🇧 United Kingdom/London [GH:ermaozi/get_s]
+  - '🇬🇧 United Kingdom/London [GH:ermaozi/get_s] #2'
+  - 🇨🇭 Switzerland/Zurich [GH:ermaozi/get_s]
+  - 🇫🇷 France/Paris [GH:ermaozi/get_s]
+  - '🇩🇪 Germany/Frankfurt am Main [GH:ermaozi/get_s] #2'
   url: https://www.google.com/generate_204
   interval: 300
   tolerance: 50
