@@ -1,18 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇺🇸 United States/Chicago [GH:ermaozi/get_s]
-  type: hysteria2
-  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  port: 443
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  udp: true
-  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States/Chicago [GH:ermaozi/get_s]
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
