@@ -1,31 +1,9 @@
 {
   "outbounds": [
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
+      "tag": "France/Paris [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "51.158.206.87",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "51.158.206.98",
+      "server": "62.210.91.10",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -46,7 +24,30 @@
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #3",
+      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "51.158.206.96",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "fuck.rkn",
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #2",
       "type": "vless",
       "server": "51.158.206.97",
       "server_port": 23576,
@@ -69,32 +70,9 @@
       }
     },
     {
-      "tag": "The Netherlands/Enschede [GH:Surfboardv2ra]",
+      "tag": "United States/Hillsboro [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "89.105.218.142",
-      "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "golos.mail.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #4",
-      "type": "vless",
-      "server": "51.158.206.93",
+      "server": "15.204.97.216",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -105,7 +83,8 @@
         "server_name": "fuck.rkn",
         "reality": {
           "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
         },
         "utls": {
           "enabled": true,
@@ -114,7 +93,7 @@
       }
     },
     {
-      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #5",
+      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #3",
       "type": "vless",
       "server": "51.158.206.86",
       "server_port": 23576,
@@ -131,26 +110,50 @@
           "short_id": "01"
         },
         "utls": {
-          "enabled": true
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
     {
-      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
+      "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra] #4",
       "type": "vless",
-      "server": "95.169.9.188",
-      "server_port": 42127,
-      "uuid": "ab223342-2da1-447b-8c38-6f58f12b92b0",
+      "server": "51.158.206.12",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.bing.com",
+        "server_name": "fuck.rkn",
         "reality": {
           "enabled": true,
-          "public_key": "PrT425XRELfK8LyAggHgC0JvyO7Aow7ccx9safXkjnY",
-          "short_id": "13d2fb17c035fa9d"
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "The Netherlands/Amsterdam [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "206.166.251.70",
+      "server_port": 52901,
+      "uuid": "510a4a35-54ac-41fa-a972-8d010995c8f7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "aws.amazon.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "Wllsn04C4xvPzega8LO2P4t-2wsV_YIdDCYO5w_NrSQ",
+          "short_id": "8770eaf663"
         },
         "utls": {
           "enabled": true,
