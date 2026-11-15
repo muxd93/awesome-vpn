@@ -1,11 +1,27 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇺🇸 United States [GH:barry-far/V2r]
+  type: hysteria2
+  server: 201.58.190.235
+  port: 443
+  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
+  udp: true
+  sni: hy2-pl.snobvpn.online
+  skip-cert-verify: true
+- name: 🇺🇸 United States/Orem [GH:ermaozi/get_s]
+  type: hysteria2
+  server: steel7.hadsvpn.com
+  port: 443
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  udp: true
+  sni: steel7.hadsvpn.com
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇺🇸 United States [GH:barry-far/V2r]
+  - 🇺🇸 United States/Orem [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
