@@ -1,19 +1,18 @@
 port: 7890
 mode: Rule
 proxies:
-- name: 🇺🇸 United States [GH:barry-far/V2r]
+- name: 🇺🇸 United States [GH:ermaozi/get_s]
   type: hysteria2
-  server: 192.255.152.147
+  server: 177.202.66.212
   port: 443
-  password: yO8pug5XmwkBXBAjleYIaVt
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
   udp: true
-  sni: 192.255.152.147
-  skip-cert-verify: true
+  sni: de1.obxodvpn.us
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States [GH:barry-far/V2r]
+  - 🇺🇸 United States [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
