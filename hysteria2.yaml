@@ -1,18 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇺🇸 United States [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 177.202.66.212
-  port: 443
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  udp: true
-  sni: de1.obxodvpn.us
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇺🇸 United States [GH:ermaozi/get_s]
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
