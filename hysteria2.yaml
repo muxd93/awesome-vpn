@@ -1,18 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇸🇪 Sweden/Stockholm [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 50.7.38.243
-  port: 443
-  password: d4ca9415f0eac7897472e1e5b86d2e96
-  udp: true
-  sni: promo.betust.net
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇸🇪 Sweden/Stockholm [GH:ermaozi/get_s]
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
