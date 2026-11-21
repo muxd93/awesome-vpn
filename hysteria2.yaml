@@ -1,11 +1,18 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇺🇸 United States/Los Angeles [GH:barry-far/V2r]
+  type: hysteria2
+  server: 89.117.172.45
+  port: 443
+  password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
+  udp: true
+  sni: eth.todsm.com
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇺🇸 United States/Los Angeles [GH:barry-far/V2r]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
