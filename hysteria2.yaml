@@ -1,34 +1,11 @@
 port: 7890
 mode: Rule
-proxies:
-- name: 🇳🇱 The Netherlands/Amsterdam [GH:ermaozi/get_s]
-  type: hysteria2
-  server: 212.34.137.105
-  port: 443
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  udp: true
-  sni: shorts.blog-forme.ru
-- name: 🇺🇸 United States [GH:ermaozi/get_s]
-  type: hysteria2
-  server: steel7.hadsvpn.com
-  port: 443
-  password: 23c82941-70f4-4381-90db-bd28e9a902e9
-  udp: true
-  skip-cert-verify: true
-- name: '🇺🇸 United States/Los Angeles [GH:ermaozi/get_s] #6'
-  type: hysteria2
-  server: dg2us.supertoolify.com
-  port: 443
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  sni: dg2us.supertoolify.com
+proxies: []
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - 🇳🇱 The Netherlands/Amsterdam [GH:ermaozi/get_s]
-  - 🇺🇸 United States [GH:ermaozi/get_s]
-  - '🇺🇸 United States/Los Angeles [GH:ermaozi/get_s] #6'
+  - DIRECT
   url: https://www.google.com/generate_204
   interval: 300
 rules:
