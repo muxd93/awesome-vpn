@@ -1,11 +1,27 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇺🇸 United States/Charlotte [GH:ermaozi/get_s]
+  type: hysteria2
+  server: 193.233.130.66
+  port: 443
+  password: e2552c42-fdf8-45d4-9be5-98819dcd0211
+  udp: true
+  sni: app.vles.space
+- name: 🇯🇵 Japan/Tokyo [GH:barry-far/V2r]
+  type: hysteria2
+  server: 8.209.247.109
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  udp: true
+  sni: bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇺🇸 United States/Charlotte [GH:ermaozi/get_s]
+  - 🇯🇵 Japan/Tokyo [GH:barry-far/V2r]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
