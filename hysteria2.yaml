@@ -1,11 +1,18 @@
 port: 7890
 mode: Rule
-proxies: []
+proxies:
+- name: 🇳🇱 The Netherlands/Amsterdam [GH:ermaozi/get_s]
+  type: hysteria2
+  server: 212.34.137.105
+  port: 443
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  udp: true
+  sni: shorts.blog-forme.ru
 proxy-groups:
 - name: Auto-HY2
   type: url-test
   proxies:
-  - DIRECT
+  - 🇳🇱 The Netherlands/Amsterdam [GH:ermaozi/get_s]
   url: https://www.google.com/generate_204
   interval: 300
 rules:
