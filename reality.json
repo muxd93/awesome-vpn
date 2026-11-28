@@ -1,6 +1,29 @@
 {
   "outbounds": [
     {
+      "tag": "Germany [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "169.40.42.231",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "United States/New York [GH:barry-far/V2r]",
       "type": "vless",
       "server": "45.144.112.55",
@@ -16,6 +39,195 @@
           "enabled": true,
           "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
           "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:Mahdi0024/Pro]",
+      "type": "vless",
+      "server": "172.233.142.149",
+      "server_port": 443,
+      "uuid": "61e3954d-0d66-4b69-b6cd-9b4fc2352303",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY",
+          "short_id": "4206512a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:ermaozi/get_s]",
+      "type": "vless",
+      "server": "172.236.227.60",
+      "server_port": 443,
+      "uuid": "3c8a110d-f04d-4f0e-9579-fd00631b8830",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "BHBzo_I0M-sChoOqTyOczYBP8l1L_dkmB6u3ijAOaGo",
+          "short_id": "664c1530"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:ermaozi/get_s] #2",
+      "type": "vless",
+      "server": "172.236.231.45",
+      "server_port": 443,
+      "uuid": "4c4f7955-3b05-4795-b3b7-6c83b7f82b0f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ",
+          "short_id": "8353867a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "tag": "Germany [GH:Surfboardv2ra] #2",
+      "type": "vless",
+      "server": "169.40.42.35",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "yahoo.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:Mahdi0024/Pro] #2",
+      "type": "vless",
+      "server": "172.235.36.11",
+      "server_port": 443,
+      "uuid": "a15c47e7-0d24-4e82-a759-891d0e951a01",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE",
+          "short_id": "afc7874d"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "tag": "United States/Los Angeles [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "172.233.139.212",
+      "server_port": 443,
+      "uuid": "b21a60ef-9042-42c8-bb13-160528ea19c6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "itunes.apple.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "bRB-Z_UOQ_sk8UFczAjrpkgKIg6cVdTNGnsyC7vAoyg",
+          "short_id": "7a87386b"
+        },
+        "utls": {
+          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "tag": "United States/Redondo Beach [GH:Surfboardv2ra]",
+      "type": "vless",
+      "server": "38.145.220.193",
+      "server_port": 443,
+      "uuid": "07a4351f-f5c8-4739-b70a-f76c08c9c9a0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.cloudflare.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "vVI2d7f6Kor_qq5G9dj9Mgl3uzN0aN9EVndPbP3y5GY",
+          "short_id": "446efed1ff571486"
         },
         "utls": {
           "enabled": true
@@ -48,7 +260,7 @@
     {
       "tag": "The Netherlands/Haarlem [GH:Surfboardv2ra]",
       "type": "vless",
-      "server": "51.158.206.12",
+      "server": "51.158.206.96",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -61,55 +273,9 @@
           "enabled": true,
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "short_id": "01"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "Germany/Frankfurt am Main [GH:Surfboardv2ra]",
-      "type": "vless",
-      "server": "78.17.215.141",
-      "server_port": 443,
-      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "de15-r.bankai.party",
-        "reality": {
-          "enabled": true,
-          "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "short_id": "457fab2ac885dbe0"
         },
         "utls": {
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "United States/Hillsboro [GH:Surfboardv2ra] #2",
-      "type": "vless",
-      "server": "15.204.97.206",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fuck.rkn",
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
